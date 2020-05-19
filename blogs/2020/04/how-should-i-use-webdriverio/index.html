@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="map[name:Vidhi Mody]">
+<meta name="description" content="WebdriverIO is Javascript based test automation framework built over Node.js. It is a custom implementation for selenium&amp;rsquo;s W3C webdriver API.
+Here&amp;rsquo;s why you should be using WebdriverIO for testing:
+ It’s Front-end Friendly It Has the Power of Selenium It&amp;rsquo;s simplicity and easy syntax It&amp;rsquo;s Easily Extendable  Let&amp;rsquo;s Get Started! WebdriverIO is a ‘npm’ package and runs on ‘Node.js‘. So, we need to install Node.js in our machine before installing WebdriverIO." />
+<meta name="keywords" content=", WebdriverIO, automation, testing, selenium" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://vidhi-mody.github.io/blogs/2020/04/how-should-i-use-webdriverio/" />
+
+
+    <title>
+        
+            How should I use WebdriverIO? :: Vidhi Mody  — Personal Blog
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://vidhi-mody.github.io/main.min.84ed5579024525d4b50458514d1a43e40dd5272df45c7cd6da85b225af457154.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://vidhi-mody.github.io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://vidhi-mody.github.io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://vidhi-mody.github.io/favicon-16x16.png">
+    <link rel="manifest" href="https://vidhi-mody.github.io/site.webmanifest">
+    <link rel="mask-icon" href="https://vidhi-mody.github.io/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://vidhi-mody.github.io/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+<meta itemprop="name" content="How should I use WebdriverIO?">
+<meta itemprop="description" content="WebdriverIO is Javascript based test automation framework built over Node.js. It is a custom implementation for selenium&rsquo;s W3C webdriver API.
+Here&rsquo;s why you should be using WebdriverIO for testing:
+ It’s Front-end Friendly It Has the Power of Selenium It&rsquo;s simplicity and easy syntax It&rsquo;s Easily Extendable  Let&rsquo;s Get Started! WebdriverIO is a ‘npm’ package and runs on ‘Node.js‘. So, we need to install Node.js in our machine before installing WebdriverIO.">
+<meta itemprop="datePublished" content="2020-04-08T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-04-08T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="496">
+<meta itemprop="image" content="https://vidhi-mody.github.io"/>
+
+
+
+<meta itemprop="keywords" content="WebdriverIO,automation,testing,selenium," /><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://vidhi-mody.github.io"/>
+
+<meta name="twitter:title" content="How should I use WebdriverIO?"/>
+<meta name="twitter:description" content="WebdriverIO is Javascript based test automation framework built over Node.js. It is a custom implementation for selenium&rsquo;s W3C webdriver API.
+Here&rsquo;s why you should be using WebdriverIO for testing:
+ It’s Front-end Friendly It Has the Power of Selenium It&rsquo;s simplicity and easy syntax It&rsquo;s Easily Extendable  Let&rsquo;s Get Started! WebdriverIO is a ‘npm’ package and runs on ‘Node.js‘. So, we need to install Node.js in our machine before installing WebdriverIO."/>
+
+
+
+    <meta property="article:section" content="Testing" />
+
+    <meta property="article:section" content="WebdriverIO" />
+
+
+
+    <meta property="article:published_time" content="2020-04-08 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            
+<header class="header">
+<link rel="apple-touch-icon" sizes="180x180" href="https://vidhi-mody.github.io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://vidhi-mody.github.io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://vidhi-mody.github.io/favicon-16x16.png">
+<link rel="manifest" href="https://vidhi-mody.github.io/site.webmanifest">
+<link rel="mask-icon" href="https://vidhi-mody.github.io/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+    <span class="header__inner">
+        <a href="https://vidhi-mody.github.io/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ cd/home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://vidhi-mody.github.io/about/">About</a></li><li><a href="https://vidhi-mody.github.io/blogs/">Blog</a></li><li><a href="https://vidhi-mody.github.io/contribute/">Contribute</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://vidhi-mody.github.io/blogs/2020/04/how-should-i-use-webdriverio/">How should I use WebdriverIO?</a></h2>
+
+            
+
+            <div class="post-content">
+                <p><a href="https://webdriver.io/">WebdriverIO</a> is Javascript based test automation framework built over Node.js. It is a custom implementation for selenium&rsquo;s W3C webdriver API.</p>
+<p>Here&rsquo;s why you should be using WebdriverIO for testing:</p>
+<ul>
+<li>It’s Front-end Friendly</li>
+<li>It Has the Power of Selenium</li>
+<li>It&rsquo;s simplicity and easy syntax</li>
+<li>It&rsquo;s Easily Extendable</li>
+</ul>
+<h3 id="lets-get-started">Let&rsquo;s Get Started!</h3>
+<p>WebdriverIO is a ‘npm’ package and runs on ‘Node.js‘. So, we need to install <a href="https://nodejs.org/en/download/">Node.js</a> in our machine before installing WebdriverIO. Make sure you install at least v12.16.1 or higher. To check the version or to verify if node.js is installed successfully type the following command:</p>
+<pre><code>node -v
+</code></pre><p>If Node is installed correctly then you will be able to see node installed version.</p>
+<p>After installing Node.js, create a project folder where we will keep all our files. You can name the folder whatever you want, I am going to call it WebdriverIOTesting. To create the Project folder and navigate to it run the following command:</p>
+<pre><code>mkdir WebdriverIOTesting
+cd WebdriverIOTesting
+</code></pre><p>Next we will initialize our package.json file by typing the following command:</p>
+<pre><code>npm init -y
+</code></pre><blockquote>
+<p><em>Note: The -y option that we added with the command is optional. The option sets up default package.json setting by skipping all input asking for yes. If you do not add the -y then answer the questions appearing on the terminal and configure the file manually</em></p>
+</blockquote>
+<p>If you skip ‘-y’ option then make sure you do the following:
+<img src="https://vidhi-mody.github.io/img/npm.PNG" alt="npm init"></p>
+<h3 id="install-webdriverio">Install WebdriverIO</h3>
+<p>To install WebdriverIO run the following command:</p>
+<pre><code>npm install webdriverio
+</code></pre><h3 id="let-the-coding-begin">Let the coding begin!</h3>
+<p>Create the specs folder by running the command:</p>
+<pre><code>mkdir -p ./test/specs
+</code></pre><p>Now, create a WithoutWdioClient.js file specs folder. Write the following code in the file:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">webdriverio</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;webdriverio&#39;</span>); <span style="color:#75715e">//calls the package installed earlier
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">options</span> <span style="color:#f92672">=</span> {
+    <span style="color:#a6e22e">desiredCapabilities</span><span style="color:#f92672">:</span> {
+        <span style="color:#a6e22e">browserName</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;chrome&#39;</span> <span style="color:#75715e">//Select a browser of your choice
+</span><span style="color:#75715e"></span>    }
+};
+<span style="color:#a6e22e">webdriverio</span>
+    .<span style="color:#a6e22e">remote</span>(<span style="color:#a6e22e">options</span>) <span style="color:#75715e">//Passing configurations
+</span><span style="color:#75715e"></span>    .<span style="color:#a6e22e">init</span>() <span style="color:#75715e">// Initiating WebdriverIO
+</span><span style="color:#75715e"></span>    .<span style="color:#a6e22e">url</span>(<span style="color:#e6db74">&#39;http://www.google.com&#39;</span>) <span style="color:#75715e">//Navigates to google.com
+</span><span style="color:#75715e"></span>    .<span style="color:#a6e22e">getTitle</span>().<span style="color:#a6e22e">then</span>(<span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">title</span>) { <span style="color:#75715e">// Gets the title of the page.
+</span><span style="color:#75715e"></span>        <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;Title is: &#39;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">title</span>); <span style="color:#75715e">// Prints the title of the page.
+</span><span style="color:#75715e"></span>    })
+    .<span style="color:#a6e22e">end</span>();
+</code></pre></div><p><em>Note: You may keep the browserName as per your choice. WebdriverIO supports the following famous browsers: Edge, Chrome, Firefox, Safari, PhantomJs.</em></p>
+<h3 id="lets-test-our-work">Let&rsquo;s test our work!</h3>
+<p>To install the selenium server utility, run the following command:</p>
+<pre><code>npm install -g selenium-standalone
+</code></pre><p><em>Note: Ensure that you have the minimum required version of Java. Currently for a Selenium version greater than 3.0.0, it is Java 8.</em></p>
+<p>To update selenium standalone server and browser drivers to latest versions run the following command:</p>
+<pre><code>selenium-standalone install
+</code></pre><p>To start the selenium server, run the following command:</p>
+<pre><code>selenium-standalone start
+</code></pre><p>To execute WebdriverIo test open a new terminal and type the following command:</p>
+<pre><code>node ./test/specs/WithoutWdioClient.js
+</code></pre><p>As soon as you run the command, you will see your browser open and navigate to Google webiste. This happens very fast! If you observe the terminal <code>Title is: Google</code> is printed.</p>
+<p>Bravo! You have successfully implemented a WebdriverIO code without using the &lsquo;wdio test runner&rsquo;</p>
+<p>If you get stuck somewhere do not hesitate to reach out to <a href="https://www.linkedin.com/in/vidhi-mody-21629a150">me</a>!</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+  				<p>
+  					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://vidhi-mody.github.io/tags/webdriverio">WebdriverIO</a></span><span class="tag"><a href="https://vidhi-mody.github.io/tags/automation">automation</a></span><span class="tag"><a href="https://vidhi-mody.github.io/tags/testing">testing</a></span><span class="tag"><a href="https://vidhi-mody.github.io/tags/selenium">selenium</a></span>
+  				</p>
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+                <span><a href="https://vidhi-mody.github.io"></a>Made with &#10084; by <a href="https://github.com/vidhi-mody">Vidhi Mody</a></span>
+            
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="https://vidhi-mody.github.io/bundle.min.2d5469329143160ae2456a69c3c76dc2d0a3b212b46afe291a51bd68650ed6f8697e001dab54f1c272c77ce08092a8c55e5bb4314e0ee334aab4b927ec896638.js" integrity="sha512-LVRpMpFDFgriRWppw8dtwtCjshK0av4pGlG9aGUO1vhpfgAdq1TxwnLHfOCAkqjFXlu0MU4O4zSqtLkn7IlmOA=="></script>
+
+
+
+    </body>
+</html>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Vidhi Mody</title>
+    <link>https://vidhi-mody.github.io/tags/</link>
+    <description>Recent content in Tags on Vidhi Mody</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://vidhi-mody.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Algorithms</title>
+      <link>https://vidhi-mody.github.io/tags/algorithms/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/tags/algorithms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Competitive Coding</title>
+      <link>https://vidhi-mody.github.io/tags/competitive-coding/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/tags/competitive-coding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Competitive Programming</title>
+      <link>https://vidhi-mody.github.io/tags/competitive-programming/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/tags/competitive-programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Structures</title>
+      <link>https://vidhi-mody.github.io/tags/data-structures/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/tags/data-structures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google Summer of Code</title>
+      <link>https://vidhi-mody.github.io/tags/google-summer-of-code/</link>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/tags/google-summer-of-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WebdriverIO</title>
+      <link>https://vidhi-mody.github.io/tags/webdriverio/</link>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/tags/webdriverio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>automation</title>
+      <link>https://vidhi-mody.github.io/tags/automation/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/tags/automation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>selenium</title>
+      <link>https://vidhi-mody.github.io/tags/selenium/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/tags/selenium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>testing</title>
+      <link>https://vidhi-mody.github.io/tags/testing/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/tags/testing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

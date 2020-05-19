@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algorithms on Vidhi Mody</title>
+    <link>https://vidhi-mody.github.io/categories/algorithms/</link>
+    <description>Recent content in Algorithms on Vidhi Mody</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://vidhi-mody.github.io/categories/algorithms/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Find All Anagrams in a String: Day 17 of the May LeetCoding Challenge</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/05/find-all-anagrams-in-a-string-day-17-of-the-may-leetcoding-challenge/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/05/find-all-anagrams-in-a-string-day-17-of-the-may-leetcoding-challenge/</guid>
+      <description>“Think like a fundamentalist, code like a hacker.”
+~ Erik Meijer
+ Day 17 of the May LeetCoding Challenge by Leetcode
+Problem definition: Odd Even Linked List Given a string s and a non-empty string p, find all the start indices of p&amp;lsquo;s anagrams in s.
+Strings consists of lowercase English letters only and the length of both strings s and p will not be larger than 20,100.
+The order of output does not matter.</description>
+    </item>
+    
+    <item>
+      <title>Odd Even Linked List: Day 16 of the May LeetCoding Challenge</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/05/odd-even-linked-list-day-16-of-the-may-leetcoding-challenge/</link>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/05/odd-even-linked-list-day-16-of-the-may-leetcoding-challenge/</guid>
+      <description>“Some of the best programming is done on paper, really. Putting it into the computer is just a minor detail.”
+~ Max Kanat-Alexander
+ Day 16 of the May LeetCoding Challenge by Leetcode
+Problem definition: Odd Even Linked List Given a singly linked list, group all odd nodes together followed by the even nodes. Please note here we are talking about the node number and not the value in the nodes.</description>
+    </item>
+    
+    <item>
+      <title>Maximum Sum Circular Subarray: Day 15 of the May LeetCoding Challenge</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/05/maximum-sum-circular-subarray-day-15-of-the-may-leetcoding-challenge/</link>
+      <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/05/maximum-sum-circular-subarray-day-15-of-the-may-leetcoding-challenge/</guid>
+      <description>“Programmers are not to be measured by their ingenuity and their logic but by the completeness of their case analysis.”
+~ Alan J. Perlis
+ Day 15 of the May LeetCoding Challenge by Leetcode
+Problem definition: Maximum Sum Circular Subarray Given a circular array C of integers represented by A, find the maximum possible sum of a non-empty subarray of C.
+Here, a circular array means the end of the array connects to the beginning of the array.</description>
+    </item>
+    
+    <item>
+      <title>Implement Trie (Prefix Tree): Day 14 of the May LeetCoding Challenge</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/05/implement-trie-prefix-tree-day-14-of-the-may-leetcoding-challenge/</link>
+      <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/05/implement-trie-prefix-tree-day-14-of-the-may-leetcoding-challenge/</guid>
+      <description>“Not all roots are buried down in the ground, some are at the top of a tree.”
+~ Jinvirle
+ Day 14 of the May LeetCoding Challenge by Leetcode
+Problem definition: Implement Trie (Prefix Tree)  Implement a trie with insert, search, and startsWith methods.
+ Note:
+ You may assume that all inputs are consist of lowercase letters a-z. All inputs are guaranteed to be non-empty strings.   Sample Testcase Testcase 1</description>
+    </item>
+    
+    <item>
+      <title>Remove K Digits: Day 13 of the May LeetCoding Challenge</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/05/remove-k-digits-day-13-of-the-may-leetcoding-challenge/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/05/remove-k-digits-day-13-of-the-may-leetcoding-challenge/</guid>
+      <description>“I&amp;rsquo;m a programmer. I like programming. And the best way I&amp;rsquo;ve found to have a positive impact on code is to write it.”
+~ Robert C. Martin
+ Day 13 of the May LeetCoding Challenge by Leetcode
+Problem definition: Remove K Digits  Given a non-negative integer num represented as a string, remove k digits from the number so that the new number is the smallest possible.
+ Note:</description>
+    </item>
+    
+    <item>
+      <title>Single Element in a Sorted Array: Day 12 of the May LeetCoding Challenge</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/05/single-element-in-a-sorted-array-day-12-of-the-may-leetcoding-challenge/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/05/single-element-in-a-sorted-array-day-12-of-the-may-leetcoding-challenge/</guid>
+      <description>“Learning to write programs stretches your mind, and helps you think better, creates a way of thinking about things that I think is helpful in all domains.”
+~Bill Gates
+ Day 12 of the May LeetCoding Challenge by Leetcode
+Problem definition: Single Element in a Sorted Array You are given a sorted array consisting of only integers where every element appears exactly twice, except for one element which appears exactly once.</description>
+    </item>
+    
+    <item>
+      <title>Flood Fill: Day 11 of the May LeetCoding Challenge</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/05/flood-fill-day-11-of-the-may-leetcoding-challenge/</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/05/flood-fill-day-11-of-the-may-leetcoding-challenge/</guid>
+      <description>“Most improved things can be improved.”
+~Mokokoma Mokhonoana
+ Day 11 of the May LeetCoding Challenge by Leetcode
+Problem definition: Flood Fill An image is represented by a 2-D array of integers, each integer representing the pixel value of the image (from 0 to 65535).
+Given a coordinate (sr, sc) representing the starting pixel (row and column) of the flood fill, and a pixel value newColor, &amp;ldquo;flood fill&amp;rdquo; the image.</description>
+    </item>
+    
+    <item>
+      <title>Find the Town Judge: Day 10 of the May LeetCoding Challenge</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/05/find-the-town-judge-day-10-of-the-may-leetcoding-challenge/</link>
+      <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/05/find-the-town-judge-day-10-of-the-may-leetcoding-challenge/</guid>
+      <description>“Everyone knows that debugging is twice as hard as writing a program in the first place. So if you&amp;rsquo;re as clever as you can be when you write it, how will you ever debug it?”
+~Brian Kernighan
+ Day 10 of the May LeetCoding Challenge by Leetcode
+Gaining knowledge is only half the battle won. Many believe that intellectual understanding is enough, to master what they are doing. But the truth is skill development through practice and feedback is always imperative.</description>
+    </item>
+    
+    <item>
+      <title>Valid Perfect Square: Day 9 of the May LeetCoding Challenge</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/05/valid-perfect-square-day-9-of-the-may-leetcoding-challenge/</link>
+      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/05/valid-perfect-square-day-9-of-the-may-leetcoding-challenge/</guid>
+      <description>“First solve the problem. Then, write the code.”
+ Day 9 of the May LeetCoding Challenge by Leetcode
+The lockdown has caused you to be confined at home. Boredom is sure to kick in soon. Keep all distractions aside, rather than streaming yet another web series, do something positive to uplift yourself. Learning a new skill can give you the much needed social detox! As our skill increases, so does the challenge.</description>
+    </item>
+    
+    <item>
+      <title>Check If It Is a Straight Line: Day 8 of the May LeetCoding Challenge</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/05/check-if-it-is-a-straight-line-day-8-of-the-may-leetcoding-challenge/</link>
+      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/05/check-if-it-is-a-straight-line-day-8-of-the-may-leetcoding-challenge/</guid>
+      <description>“Programming isn&amp;rsquo;t about what you know; it&amp;rsquo;s about what you can figure out.”
+~Chris Pine
+ Day 8 of the May LeetCoding Challenge by Leetcode
+Learning something new is always an advantage! There is no wrong method when it comes to learning, find a way that suits you the best. Learn by reading a book, attend online seminars or signup for an online course but make sure to challenge yourself.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="map[name:Vidhi Mody]">
+<meta name="description" content="“Programmers are not to be measured by their ingenuity and their logic but by the completeness of their case analysis.”
+~ Alan J. Perlis
+ Day 15 of the May LeetCoding Challenge by Leetcode
+Problem definition: Maximum Sum Circular Subarray Given a circular array C of integers represented by A, find the maximum possible sum of a non-empty subarray of C.
+Here, a circular array means the end of the array connects to the beginning of the array." />
+<meta name="keywords" content=", Competitive Coding, Competitive Programming, Algorithms, Data Structures" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://vidhi-mody.github.io/blogs/2020/05/maximum-sum-circular-subarray-day-15-of-the-may-leetcoding-challenge/" />
+
+
+    <title>
+        
+            Maximum Sum Circular Subarray: Day 15 of the May LeetCoding Challenge :: Vidhi Mody  — Personal Blog
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://vidhi-mody.github.io/main.min.84ed5579024525d4b50458514d1a43e40dd5272df45c7cd6da85b225af457154.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://vidhi-mody.github.io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://vidhi-mody.github.io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://vidhi-mody.github.io/favicon-16x16.png">
+    <link rel="manifest" href="https://vidhi-mody.github.io/site.webmanifest">
+    <link rel="mask-icon" href="https://vidhi-mody.github.io/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://vidhi-mody.github.io/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+<meta itemprop="name" content="Maximum Sum Circular Subarray: Day 15 of the May LeetCoding Challenge">
+<meta itemprop="description" content="“Programmers are not to be measured by their ingenuity and their logic but by the completeness of their case analysis.”
+~ Alan J. Perlis
+ Day 15 of the May LeetCoding Challenge by Leetcode
+Problem definition: Maximum Sum Circular Subarray Given a circular array C of integers represented by A, find the maximum possible sum of a non-empty subarray of C.
+Here, a circular array means the end of the array connects to the beginning of the array.">
+<meta itemprop="datePublished" content="2020-05-16T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-05-16T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="480">
+<meta itemprop="image" content="https://vidhi-mody.github.io"/>
+
+
+
+<meta itemprop="keywords" content="Competitive Coding,Competitive Programming,Algorithms,Data Structures," /><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://vidhi-mody.github.io"/>
+
+<meta name="twitter:title" content="Maximum Sum Circular Subarray: Day 15 of the May LeetCoding Challenge"/>
+<meta name="twitter:description" content="“Programmers are not to be measured by their ingenuity and their logic but by the completeness of their case analysis.”
+~ Alan J. Perlis
+ Day 15 of the May LeetCoding Challenge by Leetcode
+Problem definition: Maximum Sum Circular Subarray Given a circular array C of integers represented by A, find the maximum possible sum of a non-empty subarray of C.
+Here, a circular array means the end of the array connects to the beginning of the array."/>
+
+
+
+    <meta property="article:section" content="Competitive Coding" />
+
+    <meta property="article:section" content="Algorithms" />
+
+    <meta property="article:section" content="Data Structures" />
+
+
+
+    <meta property="article:published_time" content="2020-05-16 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            
+<header class="header">
+<link rel="apple-touch-icon" sizes="180x180" href="https://vidhi-mody.github.io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://vidhi-mody.github.io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://vidhi-mody.github.io/favicon-16x16.png">
+<link rel="manifest" href="https://vidhi-mody.github.io/site.webmanifest">
+<link rel="mask-icon" href="https://vidhi-mody.github.io/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+    <span class="header__inner">
+        <a href="https://vidhi-mody.github.io/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ cd/home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://vidhi-mody.github.io/about/">About</a></li><li><a href="https://vidhi-mody.github.io/blogs/">Blog</a></li><li><a href="https://vidhi-mody.github.io/contribute/">Contribute</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://vidhi-mody.github.io/blogs/2020/05/maximum-sum-circular-subarray-day-15-of-the-may-leetcoding-challenge/">Maximum Sum Circular Subarray: Day 15 of the May LeetCoding Challenge</a></h2>
+
+            
+
+            <div class="post-content">
+                <blockquote>
+<p><em>“Programmers are not to be measured by their ingenuity and their logic but by the completeness of their case analysis.”</em><br>
+~ Alan J. Perlis</p>
+</blockquote>
+<p>Day 15 of the <a href="https://leetcode.com/explore/featured/card/may-leetcoding-challenge/">May LeetCoding Challenge</a> by <a href="https://leetcode.com/">Leetcode</a></p>
+<h3 id="problem-definition-maximum-sum-circular-subarray">Problem definition: Maximum Sum Circular Subarray</h3>
+<p>Given a <strong>circular array C</strong> of integers represented by <code>A</code>, find the maximum possible sum of a non-empty subarray of <strong>C</strong>.</p>
+<p>Here, a circular array means the end of the array connects to the beginning of the array.  (Formally, <code>C[i] = A[i]</code> when <code>0 &lt;= i &lt; A.length</code>, and <code>C[i+A.length] = C[i]</code> when <code>i &gt;= 0</code>.)</p>
+<p>Also, a subarray may only include each element of the fixed buffer A at most once.  (Formally, for a subarray <code>C[i], C[i+1], ..., C[j]</code>, there does not exist <code>i &lt;= k1, k2 &lt;= j</code> with <code>k1 % A.length = k2 % A.length</code>.)</p>
+<blockquote>
+<p><strong>Note</strong>:</p>
+<ol>
+<li>-30000 &lt;= A[i] &lt;= 30000</li>
+<li>&lt;= A.length &lt;= 30000</li>
+</ol>
+</blockquote>
+<h4 id="sample-testcase">Sample Testcase</h4>
+<p>Testcase 1</p>
+<pre><code>Input: [1,-2,3,-2]
+Output: 3
+Explanation: Subarray [3] has maximum sum 3
+</code></pre><p>Testcase 2</p>
+<pre><code>Input: [5,-3,5]
+Output: 10
+Explanation: Subarray [5,5] has maximum sum 5 + 5 = 10
+</code></pre><p>Testcase 3</p>
+<pre><code>Input: [3,-1,2,-1]
+Output: 4
+Explanation: Subarray [2,-1,3] has maximum sum 2 + (-1) + 3 = 4
+</code></pre><p>Testcase 4</p>
+<pre><code>Input: [3,-2,2,-3]
+Output: 3
+Explanation: Subarray [3] and [3,-2,2] both have maximum sum 3
+</code></pre><p>Testcase 5</p>
+<pre><code>Input: [-2,-3,-1]
+Output: -1
+Explanation: Subarray [-1] has maximum sum -1
+</code></pre><p>I highly encourage you to attempt this <a href="https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/536/week-3-may-15th-may-21st/">problem</a> on your own before looking at my solution.</p>
+<h2 id="approach">Approach</h2>
+<p>Before coming to implementation, I highly recommend you to read a bit about <a href="https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/">Kadane&rsquo;s Algorithm</a>. It will help you understand the solution better!</p>
+<p>Now that you are familiar with Kadane&rsquo;s Algorithm, you know how to calculate the maximum sum when the maximum sum subarray is in the middle. For the second case Max sum will be: (Sum of the array)  + Kadane(inverted array).</p>
+<h2 id="solution">Solution</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">kadane</span>(A):  
+    current_max <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+    total_max <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">0</span>, len(A)): 
+        current_max <span style="color:#f92672">=</span> current_max <span style="color:#f92672">+</span> A[i] 
+        <span style="color:#66d9ef">if</span> (current_max <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">0</span>): 
+            current_max <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+        <span style="color:#66d9ef">if</span> (total_max <span style="color:#f92672">&lt;</span> current_max): 
+            total_max <span style="color:#f92672">=</span> current_max 
+    <span style="color:#66d9ef">return</span> total_max 
+
+<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span>:
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">maxSubarraySumCircular</span>(self, A: List[int]) <span style="color:#f92672">-&gt;</span> int:
+        kadane_sum <span style="color:#f92672">=</span> kadane(A) 
+        <span style="color:#66d9ef">if</span>(kadane_sum<span style="color:#f92672">==</span><span style="color:#ae81ff">0</span> <span style="color:#f92672">and</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">not</span> <span style="color:#f92672">in</span> A):
+            <span style="color:#66d9ef">return</span> max(A)
+
+        total_sum <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+        <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">0</span>,len(A)): 
+            total_sum <span style="color:#f92672">+=</span> A[i] 
+            A[i] <span style="color:#f92672">=</span> <span style="color:#f92672">-</span>A[i] 
+
+        total_sum <span style="color:#f92672">=</span> total_sum <span style="color:#f92672">+</span> kadane(A) 
+
+        <span style="color:#66d9ef">if</span> total_sum <span style="color:#f92672">&gt;</span> kadane_sum: 
+            <span style="color:#66d9ef">return</span> total_sum 
+        <span style="color:#66d9ef">else</span>: 
+            <span style="color:#66d9ef">return</span> kadane_sum
+</code></pre></div><h3 id="submission-details">Submission Details</h3>
+<p><strong>Total test cases passed</strong>: 109 / 109<br>
+<strong>Runtime</strong>: 472 ms<br>
+<strong>Memory Usage</strong>: 17.9 MB</p>
+<blockquote>
+<p>Note: This submission was better than 96.50% of Python3 solutions in terms of runtime! Try to come up with a better approach! 🌚</p>
+</blockquote>
+<p>I would really recommend you to explore this side of the Computer Science and tune in to the journey of competitive programming to write better, cleaner, efficient and optimal code! 😀</p>
+<p>If you have a better approach to this problem, or for any other queries feel free to reach out to <a href="https://www.linkedin.com/in/vidhi-mody-21629a150">me</a>! 😇</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+  				<p>
+  					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://vidhi-mody.github.io/tags/competitive-coding">Competitive Coding</a></span><span class="tag"><a href="https://vidhi-mody.github.io/tags/competitive-programming">Competitive Programming</a></span><span class="tag"><a href="https://vidhi-mody.github.io/tags/algorithms">Algorithms</a></span><span class="tag"><a href="https://vidhi-mody.github.io/tags/data-structures">Data Structures</a></span>
+  				</p>
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+                <span><a href="https://vidhi-mody.github.io"></a>Made with &#10084; by <a href="https://github.com/vidhi-mody">Vidhi Mody</a></span>
+            
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="https://vidhi-mody.github.io/bundle.min.2d5469329143160ae2456a69c3c76dc2d0a3b212b46afe291a51bd68650ed6f8697e001dab54f1c272c77ce08092a8c55e5bb4314e0ee334aab4b927ec896638.js" integrity="sha512-LVRpMpFDFgriRWppw8dtwtCjshK0av4pGlG9aGUO1vhpfgAdq1TxwnLHfOCAkqjFXlu0MU4O4zSqtLkn7IlmOA=="></script>
+
+
+
+    </body>
+</html>

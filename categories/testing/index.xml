@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Testing on Vidhi Mody</title>
+    <link>https://vidhi-mody.github.io/categories/testing/</link>
+    <description>Recent content in Testing on Vidhi Mody</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 08 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://vidhi-mody.github.io/categories/testing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How should I use WebdriverIO?</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/04/how-should-i-use-webdriverio/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/04/how-should-i-use-webdriverio/</guid>
+      <description>WebdriverIO is Javascript based test automation framework built over Node.js. It is a custom implementation for selenium&amp;rsquo;s W3C webdriver API.
+Here&amp;rsquo;s why you should be using WebdriverIO for testing:
+ It’s Front-end Friendly It Has the Power of Selenium It&amp;rsquo;s simplicity and easy syntax It&amp;rsquo;s Easily Extendable  Let&amp;rsquo;s Get Started! WebdriverIO is a ‘npm’ package and runs on ‘Node.js‘. So, we need to install Node.js in our machine before installing WebdriverIO.</description>
+    </item>
+    
+  </channel>
+</rss>

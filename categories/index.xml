@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Vidhi Mody</title>
+    <link>https://vidhi-mody.github.io/categories/</link>
+    <description>Recent content in Categories on Vidhi Mody</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://vidhi-mody.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Algorithms</title>
+      <link>https://vidhi-mody.github.io/categories/algorithms/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/categories/algorithms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Competitive Coding</title>
+      <link>https://vidhi-mody.github.io/categories/competitive-coding/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/categories/competitive-coding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Structures</title>
+      <link>https://vidhi-mody.github.io/categories/data-structures/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/categories/data-structures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google Summer of Code</title>
+      <link>https://vidhi-mody.github.io/categories/google-summer-of-code/</link>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/categories/google-summer-of-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WebdriverIO</title>
+      <link>https://vidhi-mody.github.io/categories/webdriverio/</link>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/categories/webdriverio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testing</title>
+      <link>https://vidhi-mody.github.io/categories/testing/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/categories/testing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

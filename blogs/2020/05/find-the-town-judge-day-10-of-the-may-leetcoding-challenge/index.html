@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="map[name:Vidhi Mody]">
+<meta name="description" content="“Everyone knows that debugging is twice as hard as writing a program in the first place. So if you&amp;rsquo;re as clever as you can be when you write it, how will you ever debug it?”
+~Brian Kernighan
+ Day 10 of the May LeetCoding Challenge by Leetcode
+Gaining knowledge is only half the battle won. Many believe that intellectual understanding is enough, to master what they are doing. But the truth is skill development through practice and feedback is always imperative." />
+<meta name="keywords" content=", Competitive Coding, Competitive Programming, Algorithms, Data Structures" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://vidhi-mody.github.io/blogs/2020/05/find-the-town-judge-day-10-of-the-may-leetcoding-challenge/" />
+
+
+    <title>
+        
+            Find the Town Judge: Day 10 of the May LeetCoding Challenge :: Vidhi Mody  — Personal Blog
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://vidhi-mody.github.io/main.min.84ed5579024525d4b50458514d1a43e40dd5272df45c7cd6da85b225af457154.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://vidhi-mody.github.io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://vidhi-mody.github.io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://vidhi-mody.github.io/favicon-16x16.png">
+    <link rel="manifest" href="https://vidhi-mody.github.io/site.webmanifest">
+    <link rel="mask-icon" href="https://vidhi-mody.github.io/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://vidhi-mody.github.io/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+<meta itemprop="name" content="Find the Town Judge: Day 10 of the May LeetCoding Challenge">
+<meta itemprop="description" content="“Everyone knows that debugging is twice as hard as writing a program in the first place. So if you&rsquo;re as clever as you can be when you write it, how will you ever debug it?”
+~Brian Kernighan
+ Day 10 of the May LeetCoding Challenge by Leetcode
+Gaining knowledge is only half the battle won. Many believe that intellectual understanding is enough, to master what they are doing. But the truth is skill development through practice and feedback is always imperative.">
+<meta itemprop="datePublished" content="2020-05-11T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-05-11T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="497">
+<meta itemprop="image" content="https://vidhi-mody.github.io"/>
+
+
+
+<meta itemprop="keywords" content="Competitive Coding,Competitive Programming,Algorithms,Data Structures," /><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://vidhi-mody.github.io"/>
+
+<meta name="twitter:title" content="Find the Town Judge: Day 10 of the May LeetCoding Challenge"/>
+<meta name="twitter:description" content="“Everyone knows that debugging is twice as hard as writing a program in the first place. So if you&rsquo;re as clever as you can be when you write it, how will you ever debug it?”
+~Brian Kernighan
+ Day 10 of the May LeetCoding Challenge by Leetcode
+Gaining knowledge is only half the battle won. Many believe that intellectual understanding is enough, to master what they are doing. But the truth is skill development through practice and feedback is always imperative."/>
+
+
+
+    <meta property="article:section" content="Competitive Coding" />
+
+    <meta property="article:section" content="Algorithms" />
+
+    <meta property="article:section" content="Data Structures" />
+
+
+
+    <meta property="article:published_time" content="2020-05-11 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            
+<header class="header">
+<link rel="apple-touch-icon" sizes="180x180" href="https://vidhi-mody.github.io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://vidhi-mody.github.io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://vidhi-mody.github.io/favicon-16x16.png">
+<link rel="manifest" href="https://vidhi-mody.github.io/site.webmanifest">
+<link rel="mask-icon" href="https://vidhi-mody.github.io/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+    <span class="header__inner">
+        <a href="https://vidhi-mody.github.io/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ cd/home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://vidhi-mody.github.io/about/">About</a></li><li><a href="https://vidhi-mody.github.io/blogs/">Blog</a></li><li><a href="https://vidhi-mody.github.io/contribute/">Contribute</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://vidhi-mody.github.io/blogs/2020/05/find-the-town-judge-day-10-of-the-may-leetcoding-challenge/">Find the Town Judge: Day 10 of the May LeetCoding Challenge</a></h2>
+
+            
+
+            <div class="post-content">
+                <blockquote>
+<p><em>“Everyone knows that debugging is twice as hard as writing a program in the first place. So if you&rsquo;re as clever as you can be when you write it, how will you ever debug it?”</em><br>
+~Brian Kernighan</p>
+</blockquote>
+<p>Day 10 of the <a href="https://leetcode.com/explore/featured/card/may-leetcoding-challenge/">May LeetCoding Challenge</a> by <a href="https://leetcode.com/">Leetcode</a></p>
+<p>Gaining knowledge is only half the battle won. Many believe that intellectual understanding is enough, to master what they are doing. But the truth is skill development through practice and feedback is always imperative. Making a commitment to practice is essential to maximize the impact of training. After all, practice is the only way to become proficient in a new skill or behavior!</p>
+<h3 id="problem-definition-find-the-town-judge">Problem definition: Find the Town Judge</h3>
+<center><img src="https://vidhi-mody.github.io/img/mayor.gif" alt="Town Judge"></center>
+<p>In a town, there are <code>N</code> people labelled from <code>1</code> to <code>N</code>.  There is a rumor that one of these people is secretly the town judge.</p>
+<p>If the town judge exists, then:</p>
+<ol>
+<li>The town judge trusts nobody.</li>
+<li>Everybody (except for the town judge) trusts the town judge.</li>
+<li>There is exactly one person that satisfies properties 1 and 2.</li>
+</ol>
+<p>You are given <code>trust</code>, an array of pairs <code>trust[i] = [a, b]</code> representing that the person labelled <code>a</code> trusts the person labelled <code>b</code>.</p>
+<p>If the town judge exists and can be identified, return the label of the town judge.  Otherwise, return <code>-1</code>.</p>
+<blockquote>
+<p><strong>Note</strong>: \</p>
+<ol>
+<li>1 &lt;= N &lt;= 1000</li>
+<li>trust.length &lt;= 10000</li>
+<li>trust[i] are all different</li>
+<li>trust[i][0] != trust[i][1]</li>
+<li>1 &lt;= trust[i][0], trust[i][1] &lt;= N</li>
+</ol>
+</blockquote>
+<h4 id="sample-testcase">Sample Testcase</h4>
+<p>Testcase 1</p>
+<pre><code>Input: N = 2, trust = [[1,2]]
+Output: 2
+</code></pre><p>Testcase 2</p>
+<pre><code>Input: N = 3, trust = [[1,3],[2,3]]
+Output: 3
+</code></pre><p>Testcase 3</p>
+<pre><code>Input: N = 3, trust = [[1,3],[2,3],[3,1]]
+Output: -1
+</code></pre><p>Testcase 4</p>
+<pre><code>Input: N = 3, trust = [[1,2],[2,3]]
+Output: -1
+</code></pre><p>Testcase 5</p>
+<pre><code>Input: N = 4, trust = [[1,3],[1,4],[2,3],[2,4],[4,3]]
+Output: 3
+</code></pre><p>I highly encourage you to attempt this <a href="https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/535/week-2-may-8th-may-14th/">problem</a> on your own before looking at my solution.</p>
+<h2 id="approach">Approach</h2>
+<p>For the given list: <code>trust[i] = [a, b]</code> we can conclude the following:</p>
+<ul>
+<li>Since the judge does not trust anybody the judge will not have an entry as <code>a</code></li>
+<li>For b to be the judge, b must appear <code>n-1</code> in the list</li>
+</ul>
+<h2 id="solution">Solution</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span>:
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">findJudge</span>(self, N: int, trust: List[List[int]]) <span style="color:#f92672">-&gt;</span> int:
+        <span style="color:#66d9ef">if</span>(N<span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>):
+            <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">1</span>
+        <span style="color:#66d9ef">else</span>:
+            trustedPeople<span style="color:#f92672">=</span>{}
+            townPeople <span style="color:#f92672">=</span> []
+            <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(len(trust)):
+                townPeople<span style="color:#f92672">.</span>append(trust[i][<span style="color:#ae81ff">0</span>])
+                <span style="color:#66d9ef">if</span>(trust[i][<span style="color:#ae81ff">1</span>] <span style="color:#f92672">in</span> trustedPeople):
+                    trustedPeople[trust[i][<span style="color:#ae81ff">1</span>]] <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+                <span style="color:#66d9ef">else</span>:
+                    trustedPeople[trust[i][<span style="color:#ae81ff">1</span>]] <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+            <span style="color:#66d9ef">for</span> key, value <span style="color:#f92672">in</span> trustedPeople<span style="color:#f92672">.</span>items(): 
+                <span style="color:#66d9ef">if</span>((value <span style="color:#f92672">==</span> N<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>) <span style="color:#f92672">and</span> (key <span style="color:#f92672">not</span> <span style="color:#f92672">in</span> townPeople)):
+                    <span style="color:#66d9ef">return</span> key
+            <span style="color:#66d9ef">return</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+</code></pre></div><h3 id="submission-details">Submission Details</h3>
+<p><strong>Total test cases passed</strong>: 89 / 89<br>
+<strong>Runtime</strong>: 796 ms<br>
+<strong>Memory Usage</strong>: 18.3 MB</p>
+<blockquote>
+<p>Note: This submission was better than 56.63% of Python3 solutions in terms of runtime! Try to come up with a better approach! 🌚</p>
+</blockquote>
+<p>I would really recommend you to explore this side of the Computer Science and tune in to the journey of competitive programming to write better, cleaner, efficient and optimal code! 😀</p>
+<p>If you have a better approach to this problem, or for any other queries feel free to reach out to <a href="(https://www.linkedin.com/in/vidhi-mody-21629a150)">me</a>! 😇</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+  				<p>
+  					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://vidhi-mody.github.io/tags/competitive-coding">Competitive Coding</a></span><span class="tag"><a href="https://vidhi-mody.github.io/tags/competitive-programming">Competitive Programming</a></span><span class="tag"><a href="https://vidhi-mody.github.io/tags/algorithms">Algorithms</a></span><span class="tag"><a href="https://vidhi-mody.github.io/tags/data-structures">Data Structures</a></span>
+  				</p>
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+                <span><a href="https://vidhi-mody.github.io"></a>Made with &#10084; by <a href="https://github.com/vidhi-mody">Vidhi Mody</a></span>
+            
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="https://vidhi-mody.github.io/bundle.min.2d5469329143160ae2456a69c3c76dc2d0a3b212b46afe291a51bd68650ed6f8697e001dab54f1c272c77ce08092a8c55e5bb4314e0ee334aab4b927ec896638.js" integrity="sha512-LVRpMpFDFgriRWppw8dtwtCjshK0av4pGlG9aGUO1vhpfgAdq1TxwnLHfOCAkqjFXlu0MU4O4zSqtLkn7IlmOA=="></script>
+
+
+
+    </body>
+</html>
