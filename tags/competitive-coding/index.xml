@@ -5,10 +5,22 @@
     <link>https://vidhi-mody.github.io/tags/competitive-coding/</link>
     <description>Recent content in Competitive Coding on Vidhi Mody</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vidhi-mody.github.io/tags/competitive-coding/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Permutation in String: Day 18 of the May LeetCoding Challenge</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/05/permutation-in-string-day-18-of-the-may-leetcoding-challenge/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/05/permutation-in-string-day-18-of-the-may-leetcoding-challenge/</guid>
+      <description> “Think like a fundamentalist, code like a hacker.”
+~ Erik Meijer
+ Day 17 of the May LeetCoding Challenge by Leetcode
+Problem definition: Permutation in String </description>
+    </item>
     
     <item>
       <title>Find All Anagrams in a String: Day 17 of the May LeetCoding Challenge</title>
@@ -19,9 +31,8 @@
       <description>“Think like a fundamentalist, code like a hacker.”
 ~ Erik Meijer
  Day 17 of the May LeetCoding Challenge by Leetcode
-Problem definition: Odd Even Linked List Given a string s and a non-empty string p, find all the start indices of p&amp;lsquo;s anagrams in s.
-Strings consists of lowercase English letters only and the length of both strings s and p will not be larger than 20,100.
-The order of output does not matter.</description>
+Problem definition: Find All Anagrams in a String Given a string s and a non-empty string p, find all the start indices of p&amp;lsquo;s anagrams in s.
+Strings consists of lowercase English letters only and the length of both strings s and p will not be larger than 20,100.</description>
     </item>
     
     <item>
@@ -122,18 +133,6 @@ Gaining knowledge is only half the battle won. Many believe that intellectual un
       <description>“First solve the problem. Then, write the code.”
  Day 9 of the May LeetCoding Challenge by Leetcode
 The lockdown has caused you to be confined at home. Boredom is sure to kick in soon. Keep all distractions aside, rather than streaming yet another web series, do something positive to uplift yourself. Learning a new skill can give you the much needed social detox! As our skill increases, so does the challenge.</description>
-    </item>
-    
-    <item>
-      <title>Check If It Is a Straight Line: Day 8 of the May LeetCoding Challenge</title>
-      <link>https://vidhi-mody.github.io/blogs/2020/05/check-if-it-is-a-straight-line-day-8-of-the-may-leetcoding-challenge/</link>
-      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vidhi-mody.github.io/blogs/2020/05/check-if-it-is-a-straight-line-day-8-of-the-may-leetcoding-challenge/</guid>
-      <description>“Programming isn&amp;rsquo;t about what you know; it&amp;rsquo;s about what you can figure out.”
-~Chris Pine
- Day 8 of the May LeetCoding Challenge by Leetcode
-Learning something new is always an advantage! There is no wrong method when it comes to learning, find a way that suits you the best. Learn by reading a book, attend online seminars or signup for an online course but make sure to challenge yourself.</description>
     </item>
     
   </channel>

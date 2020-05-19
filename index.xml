@@ -11,6 +11,18 @@
     
     
     <item>
+      <title>Permutation in String: Day 18 of the May LeetCoding Challenge</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/05/permutation-in-string-day-18-of-the-may-leetcoding-challenge/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/05/permutation-in-string-day-18-of-the-may-leetcoding-challenge/</guid>
+      <description> “Think like a fundamentalist, code like a hacker.”
+~ Erik Meijer
+ Day 17 of the May LeetCoding Challenge by Leetcode
+Problem definition: Permutation in String </description>
+    </item>
+    
+    <item>
       <title>Find All Anagrams in a String: Day 17 of the May LeetCoding Challenge</title>
       <link>https://vidhi-mody.github.io/blogs/2020/05/find-all-anagrams-in-a-string-day-17-of-the-may-leetcoding-challenge/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
@@ -19,9 +31,8 @@
       <description>“Think like a fundamentalist, code like a hacker.”
 ~ Erik Meijer
  Day 17 of the May LeetCoding Challenge by Leetcode
-Problem definition: Odd Even Linked List Given a string s and a non-empty string p, find all the start indices of p&amp;lsquo;s anagrams in s.
-Strings consists of lowercase English letters only and the length of both strings s and p will not be larger than 20,100.
-The order of output does not matter.</description>
+Problem definition: Find All Anagrams in a String Given a string s and a non-empty string p, find all the start indices of p&amp;lsquo;s anagrams in s.
+Strings consists of lowercase English letters only and the length of both strings s and p will not be larger than 20,100.</description>
     </item>
     
     <item>
@@ -122,17 +133,6 @@ Given a coordinate (sr, sc) representing the starting pixel (row and column) of 
 ~Brian Kernighan
  Day 10 of the May LeetCoding Challenge by Leetcode
 Gaining knowledge is only half the battle won. Many believe that intellectual understanding is enough, to master what they are doing. But the truth is skill development through practice and feedback is always imperative.</description>
-    </item>
-    
-    <item>
-      <title>Valid Perfect Square: Day 9 of the May LeetCoding Challenge</title>
-      <link>https://vidhi-mody.github.io/blogs/2020/05/valid-perfect-square-day-9-of-the-may-leetcoding-challenge/</link>
-      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vidhi-mody.github.io/blogs/2020/05/valid-perfect-square-day-9-of-the-may-leetcoding-challenge/</guid>
-      <description>“First solve the problem. Then, write the code.”
- Day 9 of the May LeetCoding Challenge by Leetcode
-The lockdown has caused you to be confined at home. Boredom is sure to kick in soon. Keep all distractions aside, rather than streaming yet another web series, do something positive to uplift yourself. Learning a new skill can give you the much needed social detox! As our skill increases, so does the challenge.</description>
     </item>
     
   </channel>
