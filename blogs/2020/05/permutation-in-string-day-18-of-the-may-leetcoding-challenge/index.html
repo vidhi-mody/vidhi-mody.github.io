@@ -5,10 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="map[name:Vidhi Mody]">
-<meta name="description" content=" “Think like a fundamentalist, code like a hacker.”
-~ Erik Meijer
- Day 17 of the May LeetCoding Challenge by Leetcode
-Problem definition: Permutation in String " />
+<meta name="description" content="“Every programmer is an author.”
+~ Sercan Leylek
+ Day 18 of the May LeetCoding Challenge by Leetcode
+Problem definition: Permutation in String Given two strings s1 and s2, write a function to return true if s2 contains the permutation of s1. In other words, one of the first string&amp;rsquo;s permutations is the substring of the second string.
+ Note:
+ The input strings only contain lower case letters. The length of both given strings is in range [1, 10,000]." />
 <meta name="keywords" content=", Competitive Coding, Competitive Programming, Algorithms, Data Structures" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="#252627" />
@@ -43,10 +45,10 @@ Problem definition: Permutation in String " />
     <meta name="theme-color" content="#252627">
 
 <meta itemprop="name" content="Permutation in String: Day 18 of the May LeetCoding Challenge">
-<meta itemprop="description" content="My solution to the question Find All Anagrams in a String by LeetCode">
+<meta itemprop="description" content="My solution to the question Permutation in String in a String by LeetCode">
 <meta itemprop="datePublished" content="2020-05-19T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2020-05-19T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="25">
+<meta itemprop="wordCount" content="273">
 <meta itemprop="image" content="https://vidhi-mody.github.io"/>
 
 
@@ -55,7 +57,7 @@ Problem definition: Permutation in String " />
 <meta name="twitter:image" content="https://vidhi-mody.github.io"/>
 
 <meta name="twitter:title" content="Permutation in String: Day 18 of the May LeetCoding Challenge"/>
-<meta name="twitter:description" content="My solution to the question Find All Anagrams in a String by LeetCode"/>
+<meta name="twitter:description" content="My solution to the question Permutation in String in a String by LeetCode"/>
 
 
 
@@ -147,11 +149,64 @@ Problem definition: Permutation in String " />
 
             <div class="post-content">
                 <blockquote>
-<p><em>“Think like a fundamentalist, code like a hacker.”</em><br>
-~ Erik Meijer</p>
+<p><em>“Every programmer is an author.”</em><br>
+~ Sercan Leylek</p>
 </blockquote>
-<p>Day 17 of the <a href="https://leetcode.com/explore/featured/card/may-leetcoding-challenge/">May LeetCoding Challenge</a> by <a href="https://leetcode.com/">Leetcode</a></p>
+<p>Day 18 of the <a href="https://leetcode.com/explore/featured/card/may-leetcoding-challenge/">May LeetCoding Challenge</a> by <a href="https://leetcode.com/">Leetcode</a></p>
 <h3 id="problem-definition-permutation-in-string">Problem definition: Permutation in String</h3>
+<p>Given two strings <strong>s1</strong> and <strong>s2</strong>, write a function to return true if <strong>s2</strong> contains the permutation of <strong>s1</strong>. In other words, one of the first string&rsquo;s permutations is the <strong>substring</strong> of the second string.</p>
+<blockquote>
+<p><strong>Note</strong>:</p>
+<ol>
+<li>The input strings only contain lower case letters.</li>
+<li>The length of both given strings is in range [1, 10,000].</li>
+</ol>
+</blockquote>
+<h4 id="sample-testcase">Sample Testcase</h4>
+<p>Testcase 1</p>
+<pre><code>Input: s1 = &quot;ab&quot; s2 = &quot;eidbaooo&quot;
+Output: True
+Explanation: s2 contains one permutation of s1 (&quot;ba&quot;).
+</code></pre><p>Testcase 2</p>
+<pre><code>Input:s1= &quot;ab&quot; s2 = &quot;eidboaoo&quot;
+Output: False
+</code></pre><p>I highly encourage you to attempt this <a href="https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/536/week-3-may-15th-may-21st/">problem</a> on your own before looking at my solution.</p>
+<h2 id="approach">Approach</h2>
+<p>This question follows the same approach as the previous problem!
+Time Complexity: <code>O(n)</code></p>
+<h2 id="solution">Solution</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span>:
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">checkInclusion</span>(self, s1: str, s2: str) <span style="color:#f92672">-&gt;</span> bool:
+        s1Hash<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+        s2Hash<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+        
+        <span style="color:#66d9ef">if</span> len(s2)<span style="color:#f92672">&lt;</span>len(s1):
+            <span style="color:#66d9ef">return</span> False
+        
+        <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> s1:
+            s1Hash<span style="color:#f92672">+=</span>hash(i)
+        <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(len(s1)):
+            s2Hash<span style="color:#f92672">+=</span>hash(s2[i])
+
+        <span style="color:#66d9ef">if</span> s1Hash<span style="color:#f92672">==</span>s2Hash:
+            <span style="color:#66d9ef">return</span> True
+        
+        <span style="color:#66d9ef">if</span> len(s2)<span style="color:#f92672">&gt;</span>len(s1):
+            <span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(len(s1),len(s2)):
+                s2Hash<span style="color:#f92672">+=</span>hash(s2[j])<span style="color:#f92672">-</span>hash(s2[j<span style="color:#f92672">-</span>len(s1)])
+                <span style="color:#66d9ef">if</span> s1Hash<span style="color:#f92672">==</span>s2Hash:
+                    <span style="color:#66d9ef">return</span> True
+                
+        <span style="color:#66d9ef">return</span> False 
+</code></pre></div><h3 id="submission-details">Submission Details</h3>
+<p><strong>Total test cases passed</strong>: 103 / 103<br>
+<strong>Runtime</strong>: 52 ms<br>
+<strong>Memory Usage</strong>: 13.7 MB</p>
+<blockquote>
+<p>Note: This submission was better than 98.00% of Python3 solutions in terms of runtime! Try to come up with a better approach! 🌚</p>
+</blockquote>
+<p>I would really recommend you to explore this side of the Computer Science and tune in to the journey of competitive programming to write better, cleaner, efficient and optimal code! 😀</p>
+<p>If you have a better approach to this problem, or for any other queries feel free to reach out to <a href="https://www.linkedin.com/in/vidhi-mody-21629a150">me</a>! 😇</p>
 
             </div>
         </article>
