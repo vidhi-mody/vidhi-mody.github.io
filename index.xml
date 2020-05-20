@@ -11,6 +11,19 @@
     
     
     <item>
+      <title>Online Stock Span: Day 19 of the May LeetCoding Challenge</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/05/online-stock-span-day-19-of-the-may-leetcoding-challenge/</link>
+      <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/05/online-stock-span-day-19-of-the-may-leetcoding-challenge/</guid>
+      <description>““Programming is breaking of one big impossible task into several very small possible tasks.”
+~ Jazzwant
+ Day 19 of the May LeetCoding Challenge by Leetcode
+Problem definition: Online Stock Span Write a class StockSpanner which collects daily price quotes for some stock, and returns the span of that stock&amp;rsquo;s price for the current day.
+The span of the stock&amp;rsquo;s price today is defined as the maximum number of consecutive days (starting from today and going backwards) for which the price of the stock was less than or equal to today&amp;rsquo;s price.</description>
+    </item>
+    
+    <item>
       <title>Permutation in String: Day 18 of the May LeetCoding Challenge</title>
       <link>https://vidhi-mody.github.io/blogs/2020/05/permutation-in-string-day-18-of-the-may-leetcoding-challenge/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
@@ -123,18 +136,6 @@ Problem definition: Single Element in a Sorted Array You are given a sorted arra
  Day 11 of the May LeetCoding Challenge by Leetcode
 Problem definition: Flood Fill An image is represented by a 2-D array of integers, each integer representing the pixel value of the image (from 0 to 65535).
 Given a coordinate (sr, sc) representing the starting pixel (row and column) of the flood fill, and a pixel value newColor, &amp;ldquo;flood fill&amp;rdquo; the image.</description>
-    </item>
-    
-    <item>
-      <title>Find the Town Judge: Day 10 of the May LeetCoding Challenge</title>
-      <link>https://vidhi-mody.github.io/blogs/2020/05/find-the-town-judge-day-10-of-the-may-leetcoding-challenge/</link>
-      <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vidhi-mody.github.io/blogs/2020/05/find-the-town-judge-day-10-of-the-may-leetcoding-challenge/</guid>
-      <description>“Everyone knows that debugging is twice as hard as writing a program in the first place. So if you&amp;rsquo;re as clever as you can be when you write it, how will you ever debug it?”
-~Brian Kernighan
- Day 10 of the May LeetCoding Challenge by Leetcode
-Gaining knowledge is only half the battle won. Many believe that intellectual understanding is enough, to master what they are doing. But the truth is skill development through practice and feedback is always imperative.</description>
     </item>
     
   </channel>

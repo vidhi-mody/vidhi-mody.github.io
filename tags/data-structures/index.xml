@@ -5,10 +5,23 @@
     <link>https://vidhi-mody.github.io/tags/data-structures/</link>
     <description>Recent content in Data Structures on Vidhi Mody</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vidhi-mody.github.io/tags/data-structures/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Online Stock Span: Day 19 of the May LeetCoding Challenge</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/05/online-stock-span-day-19-of-the-may-leetcoding-challenge/</link>
+      <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/05/online-stock-span-day-19-of-the-may-leetcoding-challenge/</guid>
+      <description>““Programming is breaking of one big impossible task into several very small possible tasks.”
+~ Jazzwant
+ Day 19 of the May LeetCoding Challenge by Leetcode
+Problem definition: Online Stock Span Write a class StockSpanner which collects daily price quotes for some stock, and returns the span of that stock&amp;rsquo;s price for the current day.
+The span of the stock&amp;rsquo;s price today is defined as the maximum number of consecutive days (starting from today and going backwards) for which the price of the stock was less than or equal to today&amp;rsquo;s price.</description>
+    </item>
     
     <item>
       <title>Permutation in String: Day 18 of the May LeetCoding Challenge</title>
@@ -124,17 +137,6 @@ Given a coordinate (sr, sc) representing the starting pixel (row and column) of 
 ~Brian Kernighan
  Day 10 of the May LeetCoding Challenge by Leetcode
 Gaining knowledge is only half the battle won. Many believe that intellectual understanding is enough, to master what they are doing. But the truth is skill development through practice and feedback is always imperative.</description>
-    </item>
-    
-    <item>
-      <title>Valid Perfect Square: Day 9 of the May LeetCoding Challenge</title>
-      <link>https://vidhi-mody.github.io/blogs/2020/05/valid-perfect-square-day-9-of-the-may-leetcoding-challenge/</link>
-      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vidhi-mody.github.io/blogs/2020/05/valid-perfect-square-day-9-of-the-may-leetcoding-challenge/</guid>
-      <description>“First solve the problem. Then, write the code.”
- Day 9 of the May LeetCoding Challenge by Leetcode
-The lockdown has caused you to be confined at home. Boredom is sure to kick in soon. Keep all distractions aside, rather than streaming yet another web series, do something positive to uplift yourself. Learning a new skill can give you the much needed social detox! As our skill increases, so does the challenge.</description>
     </item>
     
   </channel>
