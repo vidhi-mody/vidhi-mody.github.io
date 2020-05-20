@@ -16,7 +16,7 @@
       <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://vidhi-mody.github.io/blogs/2020/05/online-stock-span-day-19-of-the-may-leetcoding-challenge/</guid>
-      <description>““Programming is breaking of one big impossible task into several very small possible tasks.”
+      <description>“Programming is breaking of one big impossible task into several very small possible tasks.”
 ~ Jazzwant
  Day 19 of the May LeetCoding Challenge by Leetcode
 Problem definition: Online Stock Span Write a class StockSpanner which collects daily price quotes for some stock, and returns the span of that stock&amp;rsquo;s price for the current day.
