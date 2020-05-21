@@ -5,20 +5,21 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="map[name:Vidhi Mody]">
-<meta name="description" content="“Programming is breaking of one big impossible task into several very small possible tasks.”
-~ Jazzwant
- Day 19 of the May LeetCoding Challenge by Leetcode
-Problem definition: Online Stock Span Write a class StockSpanner which collects daily price quotes for some stock, and returns the span of that stock&amp;rsquo;s price for the current day.
-The span of the stock&amp;rsquo;s price today is defined as the maximum number of consecutive days (starting from today and going backwards) for which the price of the stock was less than or equal to today&amp;rsquo;s price." />
+<meta name="description" content="“If you can write &amp;ldquo;hello world&amp;rdquo; you can change the world”
+~ Raghu Venkatesh
+ Day 20 of the May LeetCoding Challenge by Leetcode
+Problem definition: Kth Smallest Element in a BST Given a binary search tree, write a function kthSmallest to find the kth smallest element in it.
+ Note: You may assume k is always valid, 1 ≤ k ≤ BST&amp;rsquo;s total elements.
+ Sample Testcase Testcase 1" />
 <meta name="keywords" content=", Competitive Coding, Competitive Programming, Algorithms, Data Structures" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="#252627" />
-<link rel="canonical" href="https://vidhi-mody.github.io/blogs/2020/05/online-stock-span-day-19-of-the-may-leetcoding-challenge/" />
+<link rel="canonical" href="https://vidhi-mody.github.io/blogs/2020/05/kth-smallest-element-in-a-bst-day-20-of-the-may-leetcoding-challenge/" />
 
 
     <title>
         
-            Online Stock Span: Day 19 of the May LeetCoding Challenge :: Vidhi Mody  — Personal Blog
+            Kth Smallest Element in a BST: Day 20 of the May LeetCoding Challenge :: Vidhi Mody  — Personal Blog
         
     </title>
 
@@ -43,11 +44,11 @@ The span of the stock&amp;rsquo;s price today is defined as the maximum number o
     <meta name="msapplication-TileColor" content="#252627">
     <meta name="theme-color" content="#252627">
 
-<meta itemprop="name" content="Online Stock Span: Day 19 of the May LeetCoding Challenge">
-<meta itemprop="description" content="My solution to the question Online Stock Span in a String by LeetCode">
-<meta itemprop="datePublished" content="2020-05-20T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2020-05-20T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="414">
+<meta itemprop="name" content="Kth Smallest Element in a BST: Day 20 of the May LeetCoding Challenge">
+<meta itemprop="description" content="My solution to the question Permutation in String in a String by LeetCode">
+<meta itemprop="datePublished" content="2020-05-21T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-05-21T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="354">
 <meta itemprop="image" content="https://vidhi-mody.github.io"/>
 
 
@@ -55,8 +56,8 @@ The span of the stock&amp;rsquo;s price today is defined as the maximum number o
 <meta itemprop="keywords" content="Competitive Coding,Competitive Programming,Algorithms,Data Structures," /><meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://vidhi-mody.github.io"/>
 
-<meta name="twitter:title" content="Online Stock Span: Day 19 of the May LeetCoding Challenge"/>
-<meta name="twitter:description" content="My solution to the question Online Stock Span in a String by LeetCode"/>
+<meta name="twitter:title" content="Kth Smallest Element in a BST: Day 20 of the May LeetCoding Challenge"/>
+<meta name="twitter:description" content="My solution to the question Permutation in String in a String by LeetCode"/>
 
 
 
@@ -68,7 +69,7 @@ The span of the stock&amp;rsquo;s price today is defined as the maximum number o
 
 
 
-    <meta property="article:published_time" content="2020-05-20 00:00:00 &#43;0000 UTC" />
+    <meta property="article:published_time" content="2020-05-21 00:00:00 &#43;0000 UTC" />
 
 
 
@@ -142,70 +143,86 @@ The span of the stock&amp;rsquo;s price today is defined as the maximum number o
         </div>
 
         <article>
-            <h2 class="post-title"><a href="https://vidhi-mody.github.io/blogs/2020/05/online-stock-span-day-19-of-the-may-leetcoding-challenge/">Online Stock Span: Day 19 of the May LeetCoding Challenge</a></h2>
+            <h2 class="post-title"><a href="https://vidhi-mody.github.io/blogs/2020/05/kth-smallest-element-in-a-bst-day-20-of-the-may-leetcoding-challenge/">Kth Smallest Element in a BST: Day 20 of the May LeetCoding Challenge</a></h2>
 
             
 
             <div class="post-content">
                 <blockquote>
-<p><em>“Programming is breaking of one big impossible task into several very small possible tasks.”</em><br>
-~ Jazzwant</p>
+<p><em>“If you can write &ldquo;hello world&rdquo; you can change the world”</em><br>
+~ Raghu Venkatesh</p>
 </blockquote>
-<p>Day 19 of the <a href="https://leetcode.com/explore/featured/card/may-leetcoding-challenge/">May LeetCoding Challenge</a> by <a href="https://leetcode.com/">Leetcode</a></p>
-<h3 id="problem-definition-online-stock-span">Problem definition: Online Stock Span</h3>
-<p>Write a class <code>StockSpanner</code> which collects daily price quotes for some stock, and returns the span of that stock&rsquo;s price for the current day.</p>
-<p>The span of the stock&rsquo;s price today is defined as the maximum number of consecutive days (starting from today and going backwards) for which the price of the stock was less than or equal to today&rsquo;s price.</p>
-<p>For example, if the price of a stock over the next 7 days were <code>[100, 80, 60, 70, 60, 75, 85]</code>, then the stock spans would be <code>[1, 1, 1, 2, 1, 4, 6]</code>.</p>
+<p>Day 20 of the <a href="https://leetcode.com/explore/featured/card/may-leetcoding-challenge/">May LeetCoding Challenge</a> by <a href="https://leetcode.com/">Leetcode</a></p>
+<h3 id="problem-definition-kth-smallest-element-in-a-bst">Problem definition: Kth Smallest Element in a BST</h3>
+<p>Given a binary search tree, write a function <code>kthSmallest</code> to find the <strong>k</strong>th smallest element in it.</p>
 <blockquote>
-<p><strong>Note</strong>:</p>
-<ol>
-<li>Calls to StockSpanner.next(int price) will have 1 &lt;= price &lt;= 10^5.</li>
-<li>There will be at most <code>10000</code> calls to <code>StockSpanner.next</code> per test case.</li>
-<li>There will be at most <code>150000</code> calls to <code>StockSpanner.next</code> across all test cases.</li>
-<li>The total time limit for this problem has been reduced by 75% for C++, and 50% for all other languages.</li>
-</ol>
+<p><strong>Note</strong>: 
+You may assume k is always valid, 1 ≤ k ≤ BST&rsquo;s total elements.</p>
 </blockquote>
 <h4 id="sample-testcase">Sample Testcase</h4>
 <p>Testcase 1</p>
-<pre><code>Input: [&quot;StockSpanner&quot;,&quot;next&quot;,&quot;next&quot;,&quot;next&quot;,&quot;next&quot;,&quot;next&quot;,&quot;next&quot;,&quot;next&quot;], [[],[100],[80],[60],[70],[60],[75],[85]]
-Output: [null,1,1,1,2,1,4,6]
-Explanation: 
-First, S = StockSpanner() is initialized.  Then:
-S.next(100) is called and returns 1,
-S.next(80) is called and returns 1,
-S.next(60) is called and returns 1,
-S.next(70) is called and returns 2,
-S.next(60) is called and returns 1,
-S.next(75) is called and returns 4,
-S.next(85) is called and returns 6.
-
-Note that (for example) S.next(75) returned 4, because the last 4 prices
-(including today's price of 75) were less than or equal to today's price.
-</code></pre><p>I highly encourage you to attempt this <a href="https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/536/week-3-may-15th-may-21st/">problem</a> on your own before looking at my solution.</p>
+<pre><code>Input: root = [3,1,4,null,2], k = 1
+   3
+  / \
+ 1   4
+  \
+   2
+Output: 1
+</code></pre><p>Testcase 2</p>
+<pre><code>Input: root = [5,3,6,2,4,null,null,1], k = 3
+       5
+      / \
+     3   6
+    / \
+   2   4
+  /
+ 1
+Output: 3
+</code></pre><p><strong>Follow up</strong>:</p>
+<p>What if the BST is modified (insert/delete operations) often and you need to find the kth smallest frequently? How would you optimize the kthSmallest routine?</p>
+<p>I highly encourage you to attempt this <a href="https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/536/week-3-may-15th-may-21st/">problem</a> on your own before looking at my solution.</p>
 <h2 id="solution">Solution</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">StockSpanner</span>:
-    <span style="color:#66d9ef">def</span> __init__(self):
-        self<span style="color:#f92672">.</span>stacks <span style="color:#f92672">=</span> []
-
-    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">next</span>(self, price: int) <span style="color:#f92672">-&gt;</span> int:
-        n <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
-        <span style="color:#66d9ef">while</span> self<span style="color:#f92672">.</span>stacks:
-            val, num <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>stacks[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]
-            <span style="color:#66d9ef">if</span> price <span style="color:#f92672">&lt;</span> val:
-                self<span style="color:#f92672">.</span>stacks<span style="color:#f92672">.</span>append((price, n))
-                <span style="color:#66d9ef">return</span> n
-            <span style="color:#66d9ef">else</span>:
-                n <span style="color:#f92672">+=</span> num
-                self<span style="color:#f92672">.</span>stacks<span style="color:#f92672">.</span>pop()
-        self<span style="color:#f92672">.</span>stacks<span style="color:#f92672">.</span>append((price, n))
-        
-        <span style="color:#66d9ef">return</span> n
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cpp" data-lang="cpp"><span style="color:#75715e">/**
+</span><span style="color:#75715e"> * Definition for a binary tree node.
+</span><span style="color:#75715e"> * struct TreeNode {
+</span><span style="color:#75715e"> *     int val;
+</span><span style="color:#75715e"> *     TreeNode *left;
+</span><span style="color:#75715e"> *     TreeNode *right;
+</span><span style="color:#75715e"> *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+</span><span style="color:#75715e"> *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+</span><span style="color:#75715e"> *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+</span><span style="color:#75715e"> * };
+</span><span style="color:#75715e"> */</span>
+TreeNode<span style="color:#f92672">*</span> <span style="color:#a6e22e">kSmallest</span>(TreeNode<span style="color:#f92672">*</span> root, <span style="color:#66d9ef">int</span><span style="color:#f92672">&amp;</span> count, <span style="color:#66d9ef">int</span> k) 
+{ 
+    <span style="color:#66d9ef">if</span> (root <span style="color:#f92672">==</span> NULL) 
+        <span style="color:#66d9ef">return</span> NULL; 
+  
+    TreeNode<span style="color:#f92672">*</span> left <span style="color:#f92672">=</span> kSmallest(root<span style="color:#f92672">-&gt;</span>left, count, k); 
+  
+    <span style="color:#66d9ef">if</span> (left <span style="color:#f92672">!=</span> NULL) 
+        <span style="color:#66d9ef">return</span> left; 
+  
+    count<span style="color:#f92672">++</span>; 
+    <span style="color:#66d9ef">if</span> (count <span style="color:#f92672">==</span> k) 
+        <span style="color:#66d9ef">return</span> root; 
+   
+    <span style="color:#66d9ef">return</span> kSmallest(root<span style="color:#f92672">-&gt;</span>right, count, k); 
+}
+<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
+<span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
+    <span style="color:#66d9ef">int</span> kthSmallest(TreeNode<span style="color:#f92672">*</span> root, <span style="color:#66d9ef">int</span> k) {
+        <span style="color:#66d9ef">int</span> count <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+        TreeNode<span style="color:#f92672">*</span> res <span style="color:#f92672">=</span> kSmallest(root, count, k); 
+        <span style="color:#66d9ef">return</span> res<span style="color:#f92672">-&gt;</span>val;
+    }
+};
 </code></pre></div><h3 id="submission-details">Submission Details</h3>
-<p><strong>Total test cases passed</strong>: 99 / 99<br>
-<strong>Runtime</strong>: 712 ms<br>
-<strong>Memory Usage</strong>: 18.5 MB</p>
+<p><strong>Total test cases passed</strong>: 91 / 91<br>
+<strong>Runtime</strong>: 28 ms<br>
+<strong>Memory Usage</strong>: 24.3 MB</p>
 <blockquote>
-<p>Note: This submission was better than 8.67% of Python3 solutions in terms of runtime! Try to come up with a better approach! 😟</p>
+<p>Note: This submission was better than 40.25% of cpp solutions in terms of runtime! Try to come up with a better approach! 🌚</p>
 </blockquote>
 <p>I would really recommend you to explore this side of the Computer Science and tune in to the journey of competitive programming to write better, cleaner, efficient and optimal code! 😀</p>
 <p>If you have a better approach to this problem, or for any other queries feel free to reach out to <a href="https://www.linkedin.com/in/vidhi-mody-21629a150">me</a>! 😇</p>

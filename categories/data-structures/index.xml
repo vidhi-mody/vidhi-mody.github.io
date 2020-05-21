@@ -5,10 +5,24 @@
     <link>https://vidhi-mody.github.io/categories/data-structures/</link>
     <description>Recent content in Data Structures on Vidhi Mody</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 20 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vidhi-mody.github.io/categories/data-structures/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Kth Smallest Element in a BST: Day 20 of the May LeetCoding Challenge</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/05/kth-smallest-element-in-a-bst-day-20-of-the-may-leetcoding-challenge/</link>
+      <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/05/kth-smallest-element-in-a-bst-day-20-of-the-may-leetcoding-challenge/</guid>
+      <description>“If you can write &amp;ldquo;hello world&amp;rdquo; you can change the world”
+~ Raghu Venkatesh
+ Day 20 of the May LeetCoding Challenge by Leetcode
+Problem definition: Kth Smallest Element in a BST Given a binary search tree, write a function kthSmallest to find the kth smallest element in it.
+ Note: You may assume k is always valid, 1 ≤ k ≤ BST&amp;rsquo;s total elements.
+ Sample Testcase Testcase 1</description>
+    </item>
     
     <item>
       <title>Online Stock Span: Day 19 of the May LeetCoding Challenge</title>
@@ -125,18 +139,6 @@ Problem definition: Single Element in a Sorted Array You are given a sorted arra
  Day 11 of the May LeetCoding Challenge by Leetcode
 Problem definition: Flood Fill An image is represented by a 2-D array of integers, each integer representing the pixel value of the image (from 0 to 65535).
 Given a coordinate (sr, sc) representing the starting pixel (row and column) of the flood fill, and a pixel value newColor, &amp;ldquo;flood fill&amp;rdquo; the image.</description>
-    </item>
-    
-    <item>
-      <title>Find the Town Judge: Day 10 of the May LeetCoding Challenge</title>
-      <link>https://vidhi-mody.github.io/blogs/2020/05/find-the-town-judge-day-10-of-the-may-leetcoding-challenge/</link>
-      <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vidhi-mody.github.io/blogs/2020/05/find-the-town-judge-day-10-of-the-may-leetcoding-challenge/</guid>
-      <description>“Everyone knows that debugging is twice as hard as writing a program in the first place. So if you&amp;rsquo;re as clever as you can be when you write it, how will you ever debug it?”
-~Brian Kernighan
- Day 10 of the May LeetCoding Challenge by Leetcode
-Gaining knowledge is only half the battle won. Many believe that intellectual understanding is enough, to master what they are doing. But the truth is skill development through practice and feedback is always imperative.</description>
     </item>
     
   </channel>
