@@ -11,6 +11,19 @@
     
     
     <item>
+      <title>Count Square Submatrices with All Ones: Day 21 of the May LeetCoding Challenge</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/05/count-square-submatrices-with-all-ones-day-21-of-the-may-leetcoding-challenge/</link>
+      <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/05/count-square-submatrices-with-all-ones-day-21-of-the-may-leetcoding-challenge/</guid>
+      <description>&amp;ldquo;Data dominates. If you&amp;rsquo;ve chosen the right data structures and organized things well, the algorithms will almost always be self-evident. Data structures, not algorithms, are central to programming.”
+~ Rob Pike
+ Day 21 of the May LeetCoding Challenge by Leetcode
+Problem definition: Count Square Submatrices with All Ones Given a m * n matrix of ones and zeros, return how many square submatrices have all ones.
+Sample Testcase Testcase 1</description>
+    </item>
+    
+    <item>
       <title>Kth Smallest Element in a BST: Day 20 of the May LeetCoding Challenge</title>
       <link>https://vidhi-mody.github.io/blogs/2020/05/kth-smallest-element-in-a-bst-day-20-of-the-may-leetcoding-challenge/</link>
       <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
@@ -125,18 +138,6 @@ Problem definition: Implement Trie (Prefix Tree)  Implement a trie with insert, 
  Day 13 of the May LeetCoding Challenge by Leetcode
 Problem definition: Remove K Digits  Given a non-negative integer num represented as a string, remove k digits from the number so that the new number is the smallest possible.
  Note:</description>
-    </item>
-    
-    <item>
-      <title>Single Element in a Sorted Array: Day 12 of the May LeetCoding Challenge</title>
-      <link>https://vidhi-mody.github.io/blogs/2020/05/single-element-in-a-sorted-array-day-12-of-the-may-leetcoding-challenge/</link>
-      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vidhi-mody.github.io/blogs/2020/05/single-element-in-a-sorted-array-day-12-of-the-may-leetcoding-challenge/</guid>
-      <description>“Learning to write programs stretches your mind, and helps you think better, creates a way of thinking about things that I think is helpful in all domains.”
-~Bill Gates
- Day 12 of the May LeetCoding Challenge by Leetcode
-Problem definition: Single Element in a Sorted Array You are given a sorted array consisting of only integers where every element appears exactly twice, except for one element which appears exactly once.</description>
     </item>
     
   </channel>

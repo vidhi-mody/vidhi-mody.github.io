@@ -5,10 +5,23 @@
     <link>https://vidhi-mody.github.io/tags/competitive-coding/</link>
     <description>Recent content in Competitive Coding on Vidhi Mody</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 21 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vidhi-mody.github.io/tags/competitive-coding/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Count Square Submatrices with All Ones: Day 21 of the May LeetCoding Challenge</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/05/count-square-submatrices-with-all-ones-day-21-of-the-may-leetcoding-challenge/</link>
+      <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/05/count-square-submatrices-with-all-ones-day-21-of-the-may-leetcoding-challenge/</guid>
+      <description>&amp;ldquo;Data dominates. If you&amp;rsquo;ve chosen the right data structures and organized things well, the algorithms will almost always be self-evident. Data structures, not algorithms, are central to programming.”
+~ Rob Pike
+ Day 21 of the May LeetCoding Challenge by Leetcode
+Problem definition: Count Square Submatrices with All Ones Given a m * n matrix of ones and zeros, return how many square submatrices have all ones.
+Sample Testcase Testcase 1</description>
+    </item>
     
     <item>
       <title>Kth Smallest Element in a BST: Day 20 of the May LeetCoding Challenge</title>
@@ -126,19 +139,6 @@ Problem definition: Remove K Digits  Given a non-negative integer num represente
 ~Bill Gates
  Day 12 of the May LeetCoding Challenge by Leetcode
 Problem definition: Single Element in a Sorted Array You are given a sorted array consisting of only integers where every element appears exactly twice, except for one element which appears exactly once.</description>
-    </item>
-    
-    <item>
-      <title>Flood Fill: Day 11 of the May LeetCoding Challenge</title>
-      <link>https://vidhi-mody.github.io/blogs/2020/05/flood-fill-day-11-of-the-may-leetcoding-challenge/</link>
-      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vidhi-mody.github.io/blogs/2020/05/flood-fill-day-11-of-the-may-leetcoding-challenge/</guid>
-      <description>“Most improved things can be improved.”
-~Mokokoma Mokhonoana
- Day 11 of the May LeetCoding Challenge by Leetcode
-Problem definition: Flood Fill An image is represented by a 2-D array of integers, each integer representing the pixel value of the image (from 0 to 65535).
-Given a coordinate (sr, sc) representing the starting pixel (row and column) of the flood fill, and a pixel value newColor, &amp;ldquo;flood fill&amp;rdquo; the image.</description>
     </item>
     
   </channel>
