@@ -11,6 +11,20 @@
     
     
     <item>
+      <title>Sort Characters By Frequency: Day 22 of the May LeetCoding Challenge</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/05/sort-characters-by-frequency-day-22-of-the-may-leetcoding-challenge/</link>
+      <pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/05/sort-characters-by-frequency-day-22-of-the-may-leetcoding-challenge/</guid>
+      <description>“There are only two kinds of languages: the ones people complain about and the ones nobody uses.”
+~ Bjarne Stroustrup
+ Day 22 of the May LeetCoding Challenge by Leetcode
+Problem definition: Sort Characters By Frequency Given a string, sort it in decreasing order based on the frequency of characters.
+Sample Testcase Testcase 1
+Input:&amp;quot;tree&amp;quot;Output:&amp;quot;eert&amp;quot;Explanation:&#39;e&#39; appears twice while &#39;r&#39; and &#39;t&#39; both appear once.So &#39;e&#39; must appear before both &#39;r&#39; and &#39;t&#39;.</description>
+    </item>
+    
+    <item>
       <title>Count Square Submatrices with All Ones: Day 21 of the May LeetCoding Challenge</title>
       <link>https://vidhi-mody.github.io/blogs/2020/05/count-square-submatrices-with-all-ones-day-21-of-the-may-leetcoding-challenge/</link>
       <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
@@ -125,19 +139,6 @@ Here, a circular array means the end of the array connects to the beginning of t
 Problem definition: Implement Trie (Prefix Tree)  Implement a trie with insert, search, and startsWith methods.
  Note:
  You may assume that all inputs are consist of lowercase letters a-z. All inputs are guaranteed to be non-empty strings.   Sample Testcase Testcase 1</description>
-    </item>
-    
-    <item>
-      <title>Remove K Digits: Day 13 of the May LeetCoding Challenge</title>
-      <link>https://vidhi-mody.github.io/blogs/2020/05/remove-k-digits-day-13-of-the-may-leetcoding-challenge/</link>
-      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vidhi-mody.github.io/blogs/2020/05/remove-k-digits-day-13-of-the-may-leetcoding-challenge/</guid>
-      <description>“I&amp;rsquo;m a programmer. I like programming. And the best way I&amp;rsquo;ve found to have a positive impact on code is to write it.”
-~ Robert C. Martin
- Day 13 of the May LeetCoding Challenge by Leetcode
-Problem definition: Remove K Digits  Given a non-negative integer num represented as a string, remove k digits from the number so that the new number is the smallest possible.
- Note:</description>
     </item>
     
   </channel>

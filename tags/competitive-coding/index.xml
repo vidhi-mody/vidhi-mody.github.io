@@ -5,10 +5,24 @@
     <link>https://vidhi-mody.github.io/tags/competitive-coding/</link>
     <description>Recent content in Competitive Coding on Vidhi Mody</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 22 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vidhi-mody.github.io/tags/competitive-coding/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sort Characters By Frequency: Day 22 of the May LeetCoding Challenge</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/05/sort-characters-by-frequency-day-22-of-the-may-leetcoding-challenge/</link>
+      <pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/05/sort-characters-by-frequency-day-22-of-the-may-leetcoding-challenge/</guid>
+      <description>“There are only two kinds of languages: the ones people complain about and the ones nobody uses.”
+~ Bjarne Stroustrup
+ Day 22 of the May LeetCoding Challenge by Leetcode
+Problem definition: Sort Characters By Frequency Given a string, sort it in decreasing order based on the frequency of characters.
+Sample Testcase Testcase 1
+Input:&amp;quot;tree&amp;quot;Output:&amp;quot;eert&amp;quot;Explanation:&#39;e&#39; appears twice while &#39;r&#39; and &#39;t&#39; both appear once.So &#39;e&#39; must appear before both &#39;r&#39; and &#39;t&#39;.</description>
+    </item>
     
     <item>
       <title>Count Square Submatrices with All Ones: Day 21 of the May LeetCoding Challenge</title>
@@ -127,18 +141,6 @@ Problem definition: Implement Trie (Prefix Tree)  Implement a trie with insert, 
  Day 13 of the May LeetCoding Challenge by Leetcode
 Problem definition: Remove K Digits  Given a non-negative integer num represented as a string, remove k digits from the number so that the new number is the smallest possible.
  Note:</description>
-    </item>
-    
-    <item>
-      <title>Single Element in a Sorted Array: Day 12 of the May LeetCoding Challenge</title>
-      <link>https://vidhi-mody.github.io/blogs/2020/05/single-element-in-a-sorted-array-day-12-of-the-may-leetcoding-challenge/</link>
-      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vidhi-mody.github.io/blogs/2020/05/single-element-in-a-sorted-array-day-12-of-the-may-leetcoding-challenge/</guid>
-      <description>“Learning to write programs stretches your mind, and helps you think better, creates a way of thinking about things that I think is helpful in all domains.”
-~Bill Gates
- Day 12 of the May LeetCoding Challenge by Leetcode
-Problem definition: Single Element in a Sorted Array You are given a sorted array consisting of only integers where every element appears exactly twice, except for one element which appears exactly once.</description>
     </item>
     
   </channel>

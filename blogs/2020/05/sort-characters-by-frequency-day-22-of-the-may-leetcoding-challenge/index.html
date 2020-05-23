@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="map[name:Vidhi Mody]">
+<meta name="description" content="“There are only two kinds of languages: the ones people complain about and the ones nobody uses.”
+~ Bjarne Stroustrup
+ Day 22 of the May LeetCoding Challenge by Leetcode
+Problem definition: Sort Characters By Frequency Given a string, sort it in decreasing order based on the frequency of characters.
+Sample Testcase Testcase 1
+Input:&amp;quot;tree&amp;quot;Output:&amp;quot;eert&amp;quot;Explanation:&#39;e&#39; appears twice while &#39;r&#39; and &#39;t&#39; both appear once.So &#39;e&#39; must appear before both &#39;r&#39; and &#39;t&#39;." />
+<meta name="keywords" content=", Competitive Coding, Competitive Programming, Algorithms, Data Structures" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://vidhi-mody.github.io/blogs/2020/05/sort-characters-by-frequency-day-22-of-the-may-leetcoding-challenge/" />
+
+
+    <title>
+        
+            Sort Characters By Frequency: Day 22 of the May LeetCoding Challenge :: Vidhi Mody  — Personal Blog
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://vidhi-mody.github.io/main.min.84ed5579024525d4b50458514d1a43e40dd5272df45c7cd6da85b225af457154.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://vidhi-mody.github.io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://vidhi-mody.github.io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://vidhi-mody.github.io/favicon-16x16.png">
+    <link rel="manifest" href="https://vidhi-mody.github.io/site.webmanifest">
+    <link rel="mask-icon" href="https://vidhi-mody.github.io/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://vidhi-mody.github.io/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+<meta itemprop="name" content="Sort Characters By Frequency: Day 22 of the May LeetCoding Challenge">
+<meta itemprop="description" content="My solution to the question Sort Characters By Frequency by LeetCode">
+<meta itemprop="datePublished" content="2020-05-23T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-05-23T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="317">
+<meta itemprop="image" content="https://vidhi-mody.github.io"/>
+
+
+
+<meta itemprop="keywords" content="Competitive Coding,Competitive Programming,Algorithms,Data Structures," /><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://vidhi-mody.github.io"/>
+
+<meta name="twitter:title" content="Sort Characters By Frequency: Day 22 of the May LeetCoding Challenge"/>
+<meta name="twitter:description" content="My solution to the question Sort Characters By Frequency by LeetCode"/>
+
+
+
+    <meta property="article:section" content="Competitive Coding" />
+
+    <meta property="article:section" content="Algorithms" />
+
+    <meta property="article:section" content="Data Structures" />
+
+
+
+    <meta property="article:published_time" content="2020-05-23 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            
+<header class="header">
+<link rel="apple-touch-icon" sizes="180x180" href="https://vidhi-mody.github.io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://vidhi-mody.github.io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://vidhi-mody.github.io/favicon-16x16.png">
+<link rel="manifest" href="https://vidhi-mody.github.io/site.webmanifest">
+<link rel="mask-icon" href="https://vidhi-mody.github.io/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+    <span class="header__inner">
+        <a href="https://vidhi-mody.github.io/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ cd/home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://vidhi-mody.github.io/about/">About</a></li><li><a href="https://vidhi-mody.github.io/blogs/">Blog</a></li><li><a href="https://vidhi-mody.github.io/contribute/">Contribute</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://vidhi-mody.github.io/blogs/2020/05/sort-characters-by-frequency-day-22-of-the-may-leetcoding-challenge/">Sort Characters By Frequency: Day 22 of the May LeetCoding Challenge</a></h2>
+
+            
+
+            <div class="post-content">
+                <blockquote>
+<p><em>“There are only two kinds of languages: the ones people complain about and the ones nobody uses.”</em><br>
+~ Bjarne Stroustrup</p>
+</blockquote>
+<p>Day 22 of the <a href="https://leetcode.com/explore/featured/card/may-leetcoding-challenge/">May LeetCoding Challenge</a> by <a href="https://leetcode.com/">Leetcode</a></p>
+<h3 id="problem-definition-sort-characters-by-frequency">Problem definition: Sort Characters By Frequency</h3>
+<p>Given a string, sort it in decreasing order based on the frequency of characters.</p>
+<h4 id="sample-testcase">Sample Testcase</h4>
+<p>Testcase 1</p>
+<pre><code>Input:
+&quot;tree&quot;
+
+Output:
+&quot;eert&quot;
+
+Explanation:
+'e' appears twice while 'r' and 't' both appear once.
+So 'e' must appear before both 'r' and 't'. Therefore &quot;eetr&quot; is also a valid answer.
+</code></pre><p>Testcase 2</p>
+<pre><code>Input:
+&quot;cccaaa&quot;
+
+Output:
+&quot;cccaaa&quot;
+
+Explanation:
+Both 'c' and 'a' appear three times, so &quot;aaaccc&quot; is also a valid answer.
+Note that &quot;cacaca&quot; is incorrect, as the same characters must be together.
+</code></pre><p>Testcase 3</p>
+<pre><code>Input:
+&quot;Aabb&quot;
+
+Output:
+&quot;bbAa&quot;
+
+Explanation:
+&quot;bbaA&quot; is also a valid answer, but &quot;Aabb&quot; is incorrect.
+Note that 'A' and 'a' are treated as two different characters.
+</code></pre><p>I highly encourage you to attempt this <a href="https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/536/week-3-may-15th-may-21st/">problem</a> on your own before looking at my solution.</p>
+<h2 id="approach">Approach</h2>
+<p>Store the frequency of each letter in a dictionary. Select the letter with maximum frequency and add it to the answer string.</p>
+<h2 id="solution">Solution</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span>(object):
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">frequencySort</span>(self, s):
+        <span style="color:#e6db74">&#34;&#34;&#34;
+</span><span style="color:#e6db74">        :type s: str
+</span><span style="color:#e6db74">        :rtype: str
+</span><span style="color:#e6db74">        &#34;&#34;&#34;</span>
+        my_dict<span style="color:#f92672">=</span>{}
+        answer<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>
+        <span style="color:#66d9ef">for</span> x <span style="color:#f92672">in</span> s:
+            <span style="color:#66d9ef">if</span>(x <span style="color:#f92672">not</span> <span style="color:#f92672">in</span> my_dict):
+                my_dict[x]<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+            <span style="color:#66d9ef">else</span>:
+                my_dict[x]<span style="color:#f92672">+=</span><span style="color:#ae81ff">1</span>
+        <span style="color:#66d9ef">print</span>(my_dict)
+        <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(len(my_dict)):
+            Keymax <span style="color:#f92672">=</span> max(my_dict, key<span style="color:#f92672">=</span>my_dict<span style="color:#f92672">.</span>get) 
+            answer<span style="color:#f92672">=</span>answer<span style="color:#f92672">+</span> Keymax<span style="color:#f92672">*</span>(my_dict[Keymax])
+            <span style="color:#66d9ef">del</span> my_dict[Keymax]
+        <span style="color:#66d9ef">return</span> answer
+</code></pre></div><h3 id="submission-details">Submission Details</h3>
+<p><strong>Total test cases passed</strong>: 35 / 35<br>
+<strong>Runtime</strong>: 72 ms<br>
+<strong>Memory Usage</strong>: 15.1 MB</p>
+<blockquote>
+<p>Note: This submission was better than 30.30% of Python3 solutions in terms of runtime! Try to come up with a better approach! 🌚</p>
+</blockquote>
+<p>I would really recommend you to explore this side of the Computer Science and tune in to the journey of competitive programming to write better, cleaner, efficient and optimal code! 😀</p>
+<p>If you have a better approach to this problem, or for any other queries feel free to reach out to <a href="https://www.linkedin.com/in/vidhi-mody-21629a150">me</a>! 😇</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+  				<p>
+  					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://vidhi-mody.github.io/tags/competitive-coding">Competitive Coding</a></span><span class="tag"><a href="https://vidhi-mody.github.io/tags/competitive-programming">Competitive Programming</a></span><span class="tag"><a href="https://vidhi-mody.github.io/tags/algorithms">Algorithms</a></span><span class="tag"><a href="https://vidhi-mody.github.io/tags/data-structures">Data Structures</a></span>
+  				</p>
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+                <span><a href="https://vidhi-mody.github.io"></a>Made with &#10084; by <a href="https://github.com/vidhi-mody">Vidhi Mody</a></span>
+            
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="https://vidhi-mody.github.io/bundle.min.2d5469329143160ae2456a69c3c76dc2d0a3b212b46afe291a51bd68650ed6f8697e001dab54f1c272c77ce08092a8c55e5bb4314e0ee334aab4b927ec896638.js" integrity="sha512-LVRpMpFDFgriRWppw8dtwtCjshK0av4pGlG9aGUO1vhpfgAdq1TxwnLHfOCAkqjFXlu0MU4O4zSqtLkn7IlmOA=="></script>
+
+
+
+    </body>
+</html>
