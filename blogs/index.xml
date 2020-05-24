@@ -5,10 +5,24 @@
     <link>https://vidhi-mody.github.io/blogs/</link>
     <description>Recent content in Blogs on Vidhi Mody</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 23 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vidhi-mody.github.io/blogs/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Interval List Intersections: Day 23 of the May LeetCoding Challenge</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/05/interval-list-intersections-day-23-of-the-may-leetcoding-challenge/</link>
+      <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/05/interval-list-intersections-day-23-of-the-may-leetcoding-challenge/</guid>
+      <description>“Bad programmers worry about the code. Good programmers worry about data structures and their relationships.”
+~ Linus Torvalds
+ Day 23 of the May LeetCoding Challenge by Leetcode
+Problem definition: Interval List Intersections Given two lists of closed intervals, each list of intervals is pairwise disjoint and in sorted order.
+Return the intersection of these two interval lists.
+(Formally, a closed interval [a, b] (with a &amp;lt;= b) denotes the set of real numbers x with a &amp;lt;= x &amp;lt;= b.</description>
+    </item>
     
     <item>
       <title>Sort Characters By Frequency: Day 22 of the May LeetCoding Challenge</title>
@@ -125,20 +139,6 @@ Problem definition: Odd Even Linked List Given a singly linked list, group all o
  Day 15 of the May LeetCoding Challenge by Leetcode
 Problem definition: Maximum Sum Circular Subarray Given a circular array C of integers represented by A, find the maximum possible sum of a non-empty subarray of C.
 Here, a circular array means the end of the array connects to the beginning of the array.</description>
-    </item>
-    
-    <item>
-      <title>Implement Trie (Prefix Tree): Day 14 of the May LeetCoding Challenge</title>
-      <link>https://vidhi-mody.github.io/blogs/2020/05/implement-trie-prefix-tree-day-14-of-the-may-leetcoding-challenge/</link>
-      <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vidhi-mody.github.io/blogs/2020/05/implement-trie-prefix-tree-day-14-of-the-may-leetcoding-challenge/</guid>
-      <description>“Not all roots are buried down in the ground, some are at the top of a tree.”
-~ Jinvirle
- Day 14 of the May LeetCoding Challenge by Leetcode
-Problem definition: Implement Trie (Prefix Tree)  Implement a trie with insert, search, and startsWith methods.
- Note:
- You may assume that all inputs are consist of lowercase letters a-z. All inputs are guaranteed to be non-empty strings.   Sample Testcase Testcase 1</description>
     </item>
     
   </channel>

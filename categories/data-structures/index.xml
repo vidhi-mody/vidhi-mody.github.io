@@ -5,10 +5,24 @@
     <link>https://vidhi-mody.github.io/categories/data-structures/</link>
     <description>Recent content in Data Structures on Vidhi Mody</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 23 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vidhi-mody.github.io/categories/data-structures/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Interval List Intersections: Day 23 of the May LeetCoding Challenge</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/05/interval-list-intersections-day-23-of-the-may-leetcoding-challenge/</link>
+      <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/05/interval-list-intersections-day-23-of-the-may-leetcoding-challenge/</guid>
+      <description>“Bad programmers worry about the code. Good programmers worry about data structures and their relationships.”
+~ Linus Torvalds
+ Day 23 of the May LeetCoding Challenge by Leetcode
+Problem definition: Interval List Intersections Given two lists of closed intervals, each list of intervals is pairwise disjoint and in sorted order.
+Return the intersection of these two interval lists.
+(Formally, a closed interval [a, b] (with a &amp;lt;= b) denotes the set of real numbers x with a &amp;lt;= x &amp;lt;= b.</description>
+    </item>
     
     <item>
       <title>Sort Characters By Frequency: Day 22 of the May LeetCoding Challenge</title>
@@ -128,19 +142,6 @@ Here, a circular array means the end of the array connects to the beginning of t
 Problem definition: Implement Trie (Prefix Tree)  Implement a trie with insert, search, and startsWith methods.
  Note:
  You may assume that all inputs are consist of lowercase letters a-z. All inputs are guaranteed to be non-empty strings.   Sample Testcase Testcase 1</description>
-    </item>
-    
-    <item>
-      <title>Remove K Digits: Day 13 of the May LeetCoding Challenge</title>
-      <link>https://vidhi-mody.github.io/blogs/2020/05/remove-k-digits-day-13-of-the-may-leetcoding-challenge/</link>
-      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vidhi-mody.github.io/blogs/2020/05/remove-k-digits-day-13-of-the-may-leetcoding-challenge/</guid>
-      <description>“I&amp;rsquo;m a programmer. I like programming. And the best way I&amp;rsquo;ve found to have a positive impact on code is to write it.”
-~ Robert C. Martin
- Day 13 of the May LeetCoding Challenge by Leetcode
-Problem definition: Remove K Digits  Given a non-negative integer num represented as a string, remove k digits from the number so that the new number is the smallest possible.
- Note:</description>
     </item>
     
   </channel>
