@@ -5,10 +5,23 @@
     <link>https://vidhi-mody.github.io/tags/competitive-programming/</link>
     <description>Recent content in Competitive Programming on Vidhi Mody</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 25 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vidhi-mody.github.io/tags/competitive-programming/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Uncrossed Lines: Day 25 of the May LeetCoding Challenge</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/05/uncrossed-lines-day-25-of-the-may-leetcoding-challenge/</link>
+      <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/05/uncrossed-lines-day-25-of-the-may-leetcoding-challenge/</guid>
+      <description>“When it comes to writing code, the number one most important skill is how to keep a tangle of features from collapsing under the weight of its own complexity.”
+~ James Hague
+ Day 25 of the May LeetCoding Challenge by Leetcode
+Problem definition: Uncrossed Lines We write the integers of A and B (in the order they are given) on two separate horizontal lines.
+Now, we may draw connecting lines: a straight line connecting two numbers A[i] and B[j] such that:</description>
+    </item>
     
     <item>
       <title>Construct Binary Search Tree from Preorder Traversal: Day 24 of the May LeetCoding Challenge</title>
@@ -128,19 +141,6 @@ Strings consists of lowercase English letters only and the length of both string
 ~ Max Kanat-Alexander
  Day 16 of the May LeetCoding Challenge by Leetcode
 Problem definition: Odd Even Linked List Given a singly linked list, group all odd nodes together followed by the even nodes. Please note here we are talking about the node number and not the value in the nodes.</description>
-    </item>
-    
-    <item>
-      <title>Maximum Sum Circular Subarray: Day 15 of the May LeetCoding Challenge</title>
-      <link>https://vidhi-mody.github.io/blogs/2020/05/maximum-sum-circular-subarray-day-15-of-the-may-leetcoding-challenge/</link>
-      <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vidhi-mody.github.io/blogs/2020/05/maximum-sum-circular-subarray-day-15-of-the-may-leetcoding-challenge/</guid>
-      <description>“Programmers are not to be measured by their ingenuity and their logic but by the completeness of their case analysis.”
-~ Alan J. Perlis
- Day 15 of the May LeetCoding Challenge by Leetcode
-Problem definition: Maximum Sum Circular Subarray Given a circular array C of integers represented by A, find the maximum possible sum of a non-empty subarray of C.
-Here, a circular array means the end of the array connects to the beginning of the array.</description>
     </item>
     
   </channel>

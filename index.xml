@@ -11,6 +11,19 @@
     
     
     <item>
+      <title>Uncrossed Lines: Day 25 of the May LeetCoding Challenge</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/05/uncrossed-lines-day-25-of-the-may-leetcoding-challenge/</link>
+      <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/05/uncrossed-lines-day-25-of-the-may-leetcoding-challenge/</guid>
+      <description>“When it comes to writing code, the number one most important skill is how to keep a tangle of features from collapsing under the weight of its own complexity.”
+~ James Hague
+ Day 25 of the May LeetCoding Challenge by Leetcode
+Problem definition: Uncrossed Lines We write the integers of A and B (in the order they are given) on two separate horizontal lines.
+Now, we may draw connecting lines: a straight line connecting two numbers A[i] and B[j] such that:</description>
+    </item>
+    
+    <item>
       <title>Construct Binary Search Tree from Preorder Traversal: Day 24 of the May LeetCoding Challenge</title>
       <link>https://vidhi-mody.github.io/blogs/2020/05/construct-binary-search-tree-from-preorder-traversal-day-24-of-the-may-leetcoding-challenge/</link>
       <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
@@ -127,18 +140,6 @@ Strings consists of lowercase English letters only and the length of both string
       <description>“The mission of the Wikimedia Foundation is to empower and engage people around the world to collect and develop educational content under a free license or in the public domain, and to disseminate it effectively and globally.&amp;quot;
  I am pleased to share that I have been accepted into Google Summer of Code 2020 under Wikimedia Foundation!
 I believe that Open source projects are a great way of developing quality products by working together with other developers.</description>
-    </item>
-    
-    <item>
-      <title>Odd Even Linked List: Day 16 of the May LeetCoding Challenge</title>
-      <link>https://vidhi-mody.github.io/blogs/2020/05/odd-even-linked-list-day-16-of-the-may-leetcoding-challenge/</link>
-      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vidhi-mody.github.io/blogs/2020/05/odd-even-linked-list-day-16-of-the-may-leetcoding-challenge/</guid>
-      <description>“Some of the best programming is done on paper, really. Putting it into the computer is just a minor detail.”
-~ Max Kanat-Alexander
- Day 16 of the May LeetCoding Challenge by Leetcode
-Problem definition: Odd Even Linked List Given a singly linked list, group all odd nodes together followed by the even nodes. Please note here we are talking about the node number and not the value in the nodes.</description>
     </item>
     
   </channel>
