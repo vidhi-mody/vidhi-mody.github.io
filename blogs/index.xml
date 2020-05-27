@@ -5,10 +5,24 @@
     <link>https://vidhi-mody.github.io/blogs/</link>
     <description>Recent content in Blogs on Vidhi Mody</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 26 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vidhi-mody.github.io/blogs/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Contiguous Array: Day 26 of the May LeetCoding Challenge</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/05/contiguous-array-day-26-of-the-may-leetcoding-challenge/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/05/contiguous-array-day-26-of-the-may-leetcoding-challenge/</guid>
+      <description>“It is better to have 100 functions operate on one data structure than to have 10 functions operate on 10 data structures. ”
+~ Alan Perlis
+ Day 26 of the May LeetCoding Challenge by Leetcode
+Problem definition: Contiguous Array Given a binary array, find the maximum length of a contiguous subarray with equal number of 0 and 1.
+Sample Testcase Testcase 1
+Input: [0,1]Output: 2Explanation: [0, 1] is the longest contiguous subarray with equal number of 0 and 1.</description>
+    </item>
     
     <item>
       <title>Uncrossed Lines: Day 25 of the May LeetCoding Challenge</title>
@@ -129,17 +143,6 @@ Problem definition: Permutation in String Given two strings s1 and s2, write a f
  Day 17 of the May LeetCoding Challenge by Leetcode
 Problem definition: Find All Anagrams in a String Given a string s and a non-empty string p, find all the start indices of p&amp;lsquo;s anagrams in s.
 Strings consists of lowercase English letters only and the length of both strings s and p will not be larger than 20,100.</description>
-    </item>
-    
-    <item>
-      <title>GSoCpedia: Chapter One</title>
-      <link>https://vidhi-mody.github.io/blogs/2020/05/gsocpedia-chapter-one/</link>
-      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vidhi-mody.github.io/blogs/2020/05/gsocpedia-chapter-one/</guid>
-      <description>“The mission of the Wikimedia Foundation is to empower and engage people around the world to collect and develop educational content under a free license or in the public domain, and to disseminate it effectively and globally.&amp;quot;
- I am pleased to share that I have been accepted into Google Summer of Code 2020 under Wikimedia Foundation!
-I believe that Open source projects are a great way of developing quality products by working together with other developers.</description>
     </item>
     
   </channel>
