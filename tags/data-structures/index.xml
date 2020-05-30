@@ -5,10 +5,23 @@
     <link>https://vidhi-mody.github.io/tags/data-structures/</link>
     <description>Recent content in Data Structures on Vidhi Mody</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 29 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vidhi-mody.github.io/tags/data-structures/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Course Schedule: Day 29 of the May LeetCoding Challenge</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/05/course-schedule-day-29-of-the-may-leetcoding-challenge/</link>
+      <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/05/course-schedule-day-29-of-the-may-leetcoding-challenge/</guid>
+      <description>“Data dominates. If you&amp;rsquo;ve chosen the right data structures and organized things well, the algorithms will almost always be self-evident. Data structures, not algorithms, are central to programming.”
+~ Rob Pike
+ Day 29 of the May LeetCoding Challenge by Leetcode
+Problem definition: Course Schedule There are a total of numCourses courses you have to take, labeled from 0 to numCourses-1.
+Some courses may have prerequisites, for example to take course 0 you have to first take course 1, which is expressed as a pair: [0,1]</description>
+    </item>
     
     <item>
       <title>Counting Bits: Day 28 of the May LeetCoding Challenge</title>
@@ -130,19 +143,6 @@ Sample Testcase Testcase 1</description>
 Problem definition: Kth Smallest Element in a BST Given a binary search tree, write a function kthSmallest to find the kth smallest element in it.
  Note: You may assume k is always valid, 1 ≤ k ≤ BST&amp;rsquo;s total elements.
  Sample Testcase Testcase 1</description>
-    </item>
-    
-    <item>
-      <title>Online Stock Span: Day 19 of the May LeetCoding Challenge</title>
-      <link>https://vidhi-mody.github.io/blogs/2020/05/online-stock-span-day-19-of-the-may-leetcoding-challenge/</link>
-      <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vidhi-mody.github.io/blogs/2020/05/online-stock-span-day-19-of-the-may-leetcoding-challenge/</guid>
-      <description>“Programming is breaking of one big impossible task into several very small possible tasks.”
-~ Jazzwant
- Day 19 of the May LeetCoding Challenge by Leetcode
-Problem definition: Online Stock Span Write a class StockSpanner which collects daily price quotes for some stock, and returns the span of that stock&amp;rsquo;s price for the current day.
-The span of the stock&amp;rsquo;s price today is defined as the maximum number of consecutive days (starting from today and going backwards) for which the price of the stock was less than or equal to today&amp;rsquo;s price.</description>
     </item>
     
   </channel>
