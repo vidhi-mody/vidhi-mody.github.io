@@ -11,6 +11,30 @@
     
     
     <item>
+      <title>GSoCpedia: Chapter Two</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/05/gsocpedia-chapter-two/</link>
+      <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/05/gsocpedia-chapter-two/</guid>
+      <description>“Its the not the Destination, It&amp;rsquo;s the journey.”
+~ Ralph Waldo
+ It&amp;rsquo;s been less than a month but this community has really grown on me. The past few weeks have been really eventful. A huge shoutout to my mentor, Željko for giving me the best on-boarding experience ever. In this short span, I got to meet the entire QTE &amp;amp; Release Engineering team. I also gained a new sense of professionalism and a clearer view of what it meant to be working as a community!</description>
+    </item>
+    
+    <item>
+      <title>K Closest Points to Origin: Day 30 of the May LeetCoding Challenge</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/05/k-closest-points-to-origin-day-30-of-the-may-leetcoding-challenge/</link>
+      <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/05/k-closest-points-to-origin-day-30-of-the-may-leetcoding-challenge/</guid>
+      <description>“Data dominates. If you&amp;rsquo;ve chosen the right data structures and organized things well, the algorithms will almost always be self-evident. Data structures, not algorithms, are central to programming.”
+~ Rob Pike
+ Day 30 of the May LeetCoding Challenge by Leetcode
+Problem definition: K Closest Points to Origin We have a list of points on the plane. Find the K closest points to the origin (0, 0).
+(Here, the distance between two points on a plane is the Euclidean distance.</description>
+    </item>
+    
+    <item>
       <title>Course Schedule: Day 29 of the May LeetCoding Challenge</title>
       <link>https://vidhi-mody.github.io/blogs/2020/05/course-schedule-day-29-of-the-may-leetcoding-challenge/</link>
       <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
@@ -116,33 +140,6 @@ Return the intersection of these two interval lists.
 Problem definition: Sort Characters By Frequency Given a string, sort it in decreasing order based on the frequency of characters.
 Sample Testcase Testcase 1
 Input:&amp;quot;tree&amp;quot;Output:&amp;quot;eert&amp;quot;Explanation:&#39;e&#39; appears twice while &#39;r&#39; and &#39;t&#39; both appear once.So &#39;e&#39; must appear before both &#39;r&#39; and &#39;t&#39;.</description>
-    </item>
-    
-    <item>
-      <title>Count Square Submatrices with All Ones: Day 21 of the May LeetCoding Challenge</title>
-      <link>https://vidhi-mody.github.io/blogs/2020/05/count-square-submatrices-with-all-ones-day-21-of-the-may-leetcoding-challenge/</link>
-      <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vidhi-mody.github.io/blogs/2020/05/count-square-submatrices-with-all-ones-day-21-of-the-may-leetcoding-challenge/</guid>
-      <description>&amp;ldquo;Data dominates. If you&amp;rsquo;ve chosen the right data structures and organized things well, the algorithms will almost always be self-evident. Data structures, not algorithms, are central to programming.”
-~ Rob Pike
- Day 21 of the May LeetCoding Challenge by Leetcode
-Problem definition: Count Square Submatrices with All Ones Given a m * n matrix of ones and zeros, return how many square submatrices have all ones.
-Sample Testcase Testcase 1</description>
-    </item>
-    
-    <item>
-      <title>Kth Smallest Element in a BST: Day 20 of the May LeetCoding Challenge</title>
-      <link>https://vidhi-mody.github.io/blogs/2020/05/kth-smallest-element-in-a-bst-day-20-of-the-may-leetcoding-challenge/</link>
-      <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vidhi-mody.github.io/blogs/2020/05/kth-smallest-element-in-a-bst-day-20-of-the-may-leetcoding-challenge/</guid>
-      <description>“If you can write &amp;ldquo;hello world&amp;rdquo; you can change the world”
-~ Raghu Venkatesh
- Day 20 of the May LeetCoding Challenge by Leetcode
-Problem definition: Kth Smallest Element in a BST Given a binary search tree, write a function kthSmallest to find the kth smallest element in it.
- Note: You may assume k is always valid, 1 ≤ k ≤ BST&amp;rsquo;s total elements.
- Sample Testcase Testcase 1</description>
     </item>
     
   </channel>
