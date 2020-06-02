@@ -5,10 +5,24 @@
     <link>https://vidhi-mody.github.io/tags/algorithms/</link>
     <description>Recent content in Algorithms on Vidhi Mody</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 31 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vidhi-mody.github.io/tags/algorithms/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Edit Distance: Day 31 of the May LeetCoding Challenge</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/06/edit-distance-day-31-of-the-may-leetcoding-challenge/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/06/edit-distance-day-31-of-the-may-leetcoding-challenge/</guid>
+      <description>“The big optimizations come from refining the high-level design, not the individual routines.”
+~ Steve McConnell
+ Day 31 of the May LeetCoding Challenge by Leetcode
+Problem definition: Edit Distance Given two words word1 and word2, find the minimum number of operations required to convert word1 to word2.
+You have the following 3 operations permitted on a word:
+ Insert a character Delete a character Replace a character  Sample Testcase Testcase 1</description>
+    </item>
     
     <item>
       <title>K Closest Points to Origin: Day 30 of the May LeetCoding Challenge</title>
@@ -129,19 +143,6 @@ Return the intersection of these two interval lists.
 Problem definition: Sort Characters By Frequency Given a string, sort it in decreasing order based on the frequency of characters.
 Sample Testcase Testcase 1
 Input:&amp;quot;tree&amp;quot;Output:&amp;quot;eert&amp;quot;Explanation:&#39;e&#39; appears twice while &#39;r&#39; and &#39;t&#39; both appear once.So &#39;e&#39; must appear before both &#39;r&#39; and &#39;t&#39;.</description>
-    </item>
-    
-    <item>
-      <title>Count Square Submatrices with All Ones: Day 21 of the May LeetCoding Challenge</title>
-      <link>https://vidhi-mody.github.io/blogs/2020/05/count-square-submatrices-with-all-ones-day-21-of-the-may-leetcoding-challenge/</link>
-      <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vidhi-mody.github.io/blogs/2020/05/count-square-submatrices-with-all-ones-day-21-of-the-may-leetcoding-challenge/</guid>
-      <description>&amp;ldquo;Data dominates. If you&amp;rsquo;ve chosen the right data structures and organized things well, the algorithms will almost always be self-evident. Data structures, not algorithms, are central to programming.”
-~ Rob Pike
- Day 21 of the May LeetCoding Challenge by Leetcode
-Problem definition: Count Square Submatrices with All Ones Given a m * n matrix of ones and zeros, return how many square submatrices have all ones.
-Sample Testcase Testcase 1</description>
     </item>
     
   </channel>
