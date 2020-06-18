@@ -5,10 +5,22 @@
     <link>https://vidhi-mody.github.io/categories/webdriverio/</link>
     <description>Recent content in WebdriverIO on Vidhi Mody</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 31 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vidhi-mody.github.io/categories/webdriverio/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>GSoCpedia: Chapter Three</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/06/gsocpedia-chapter-three/</link>
+      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/06/gsocpedia-chapter-three/</guid>
+      <description>“It&amp;rsquo;s not the Destination, It&amp;rsquo;s the journey.”
+~ Ralph Waldo
+ I would like to start this blog with one of the stories shared on the WaterCooler by James. (Read more about &amp;lsquo;WaterCooler&amp;rsquo; in my previous blog.)
+Early in his career he worked in an aviation company in UK. The project was related to the network connectivity of the airplane during it&amp;rsquo;s entire journey. The code was written. The code was tested by flying the plane through UK.</description>
+    </item>
     
     <item>
       <title>GSoCpedia: Chapter Two</title>
