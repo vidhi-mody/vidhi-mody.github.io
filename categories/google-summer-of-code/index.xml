@@ -5,10 +5,21 @@
     <link>https://vidhi-mody.github.io/categories/google-summer-of-code/</link>
     <description>Recent content in Google Summer of Code on Vidhi Mody</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vidhi-mody.github.io/categories/google-summer-of-code/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>GSoCpedia: Chapter Four</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/06/gsocpedia-chapter-four/</link>
+      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/06/gsocpedia-chapter-four/</guid>
+      <description>“With tests, we can change the behavior of our code quickly and verifiably. Without them, we really don’t know if our code is getting better or worse.”
+~ Michael Feathers (Working Effectively with Legacy Code)
+ One of the best experience in this duration was attending the TDD Workshop. The workshop was about learning basics of Test Driven Development - its rules and Red-Green-Refactor loop. The workshop was very interactive and all the participants worked together while writing code as well as refactoring it.</description>
+    </item>
     
     <item>
       <title>GSoCpedia: Chapter Three</title>

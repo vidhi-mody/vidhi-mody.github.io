@@ -5,10 +5,21 @@
     <link>https://vidhi-mody.github.io/blogs/</link>
     <description>Recent content in Blogs on Vidhi Mody</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vidhi-mody.github.io/blogs/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>GSoCpedia: Chapter Four</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/06/gsocpedia-chapter-four/</link>
+      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/06/gsocpedia-chapter-four/</guid>
+      <description>“With tests, we can change the behavior of our code quickly and verifiably. Without them, we really don’t know if our code is getting better or worse.”
+~ Michael Feathers (Working Effectively with Legacy Code)
+ One of the best experience in this duration was attending the TDD Workshop. The workshop was about learning basics of Test Driven Development - its rules and Red-Green-Refactor loop. The workshop was very interactive and all the participants worked together while writing code as well as refactoring it.</description>
+    </item>
     
     <item>
       <title>GSoCpedia: Chapter Three</title>
@@ -125,19 +136,6 @@ Input: [0,1]Output: 2Explanation: [0, 1] is the longest contiguous subarray wi
  Day 25 of the May LeetCoding Challenge by Leetcode
 Problem definition: Uncrossed Lines We write the integers of A and B (in the order they are given) on two separate horizontal lines.
 Now, we may draw connecting lines: a straight line connecting two numbers A[i] and B[j] such that:</description>
-    </item>
-    
-    <item>
-      <title>Construct Binary Search Tree from Preorder Traversal: Day 24 of the May LeetCoding Challenge</title>
-      <link>https://vidhi-mody.github.io/blogs/2020/05/construct-binary-search-tree-from-preorder-traversal-day-24-of-the-may-leetcoding-challenge/</link>
-      <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vidhi-mody.github.io/blogs/2020/05/construct-binary-search-tree-from-preorder-traversal-day-24-of-the-may-leetcoding-challenge/</guid>
-      <description>“One of the best programming skills you can have is knowing when to walk away for awhile.”
-~ Oscar Godson
- Day 24 of the May LeetCoding Challenge by Leetcode
-Problem definition: Construct Binary Search Tree from Preorder Traversal Return the root node of a binary search tree that matches the given preorder traversal.
-(Recall that a binary search tree is a binary tree where for every node, any descendant of node.</description>
     </item>
     
   </channel>
