@@ -5,10 +5,21 @@
     <link>https://vidhi-mody.github.io/tags/webdriverio/</link>
     <description>Recent content in WebdriverIO on Vidhi Mody</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 30 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vidhi-mody.github.io/tags/webdriverio/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>GSoCpedia: The journey so far</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/07/gsocpedia-the-journey-so-far/</link>
+      <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/07/gsocpedia-the-journey-so-far/</guid>
+      <description>“Imagine a world in which every single human being can freely share in the sum of all knowledge.”
+ Foreword Google Summer of Code (GSoC) is a global program focused on introducing students to open source software development. Students work on a 3 month programming project with an open source organization during their break from university.
+As a part of Google Summer of Code, student participants are paired with a mentor from the participating organizations, gaining exposure to real-world software development and techniques.</description>
+    </item>
     
     <item>
       <title>GSoCpedia: Chapter Four</title>

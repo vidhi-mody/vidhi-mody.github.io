@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="map[name:Vidhi Mody]">
+<meta name="description" content="“Imagine a world in which every single human being can freely share in the sum of all knowledge.”
+ Foreword Google Summer of Code (GSoC) is a global program focused on introducing students to open source software development. Students work on a 3 month programming project with an open source organization during their break from university.
+As a part of Google Summer of Code, student participants are paired with a mentor from the participating organizations, gaining exposure to real-world software development and techniques." />
+<meta name="keywords" content=", Google Summer of Code, WebdriverIO" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://vidhi-mody.github.io/blogs/2020/07/gsocpedia-the-journey-so-far/" />
+
+
+    <title>
+        
+            GSoCpedia: The journey so far :: Vidhi Mody  — Personal Blog
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://vidhi-mody.github.io/main.min.84ed5579024525d4b50458514d1a43e40dd5272df45c7cd6da85b225af457154.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://vidhi-mody.github.io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://vidhi-mody.github.io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://vidhi-mody.github.io/favicon-16x16.png">
+    <link rel="manifest" href="https://vidhi-mody.github.io/site.webmanifest">
+    <link rel="mask-icon" href="https://vidhi-mody.github.io/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://vidhi-mody.github.io/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+<meta itemprop="name" content="GSoCpedia: The journey so far">
+<meta itemprop="description" content="GSoC&#39;s two month journey">
+<meta itemprop="datePublished" content="2020-07-04T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-07-04T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1064">
+<meta itemprop="image" content="https://vidhi-mody.github.io"/>
+
+
+
+<meta itemprop="keywords" content="Google Summer of Code,WebdriverIO," /><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://vidhi-mody.github.io"/>
+
+<meta name="twitter:title" content="GSoCpedia: The journey so far"/>
+<meta name="twitter:description" content="GSoC&#39;s two month journey"/>
+
+
+
+    <meta property="article:section" content="Google Summer of Code" />
+
+    <meta property="article:section" content="WebdriverIO" />
+
+
+
+    <meta property="article:published_time" content="2020-07-04 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            
+<header class="header">
+<link rel="apple-touch-icon" sizes="180x180" href="https://vidhi-mody.github.io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://vidhi-mody.github.io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://vidhi-mody.github.io/favicon-16x16.png">
+<link rel="manifest" href="https://vidhi-mody.github.io/site.webmanifest">
+<link rel="mask-icon" href="https://vidhi-mody.github.io/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+    <span class="header__inner">
+        <a href="https://vidhi-mody.github.io/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ cd/home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://vidhi-mody.github.io/about/">About</a></li><li><a href="https://vidhi-mody.github.io/blogs/">Blog</a></li><li><a href="https://vidhi-mody.github.io/contribute/">Contribute</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://vidhi-mody.github.io/blogs/2020/07/gsocpedia-the-journey-so-far/">GSoCpedia: The journey so far</a></h2>
+
+            
+
+            <div class="post-content">
+                <blockquote>
+<p><em>“Imagine a world in which every single human being can freely share in the sum of all knowledge.”</em></p>
+</blockquote>
+<h2 id="foreword">Foreword</h2>
+<p>Google Summer of Code (GSoC) is a global program focused on introducing students to open source software development. Students work on a 3 month programming project with an open source organization during their break from university.</p>
+<p>As a part of Google Summer of Code, student participants are paired with a mentor from the participating organizations, gaining exposure to real-world software development and techniques. Students have the opportunity to spend the break between their school semesters earning a stipend while working in areas related to their interests.</p>
+<p>In turn, the participating organizations are able to identify and bring in new developers who implement new features and hopefully continue to contribute to open source even after the program is over. Most importantly, more code is created and released for the use and benefit of all.</p>
+<h2 id="introduction">Introduction</h2>
+<p>I believe that, Open source projects are a great way of developing quality products by working together with other developers. I have always wanted to contribute to projects that I myself use to give back to the Community. Back in my school days, I remember using Wikipedia extensively for assignments and projects. While going through the GSoC organizations list, when I came across Wikimedia Foundation, I knew it was the organization I wanted to apply to.</p>
+<p>For me, Google Summer of Code was an opportunity to meet the community, exchange ideas, learn new skills play a small role in the open source community, and contribute to the organisation that I love. I immediately started working on drafting my proposal as well as performed all the required micro-tasks to familiarize myself with the codebase.</p>
+<h4 id="ad-astra-per-aspera">Ad Astra Per Aspera</h4>
+<p>May 4 2020, I get an email with the subject line <strong>&ldquo;GSoC 2020: Congratulations, your proposal with Wikimedia Foundation has been accepted!&quot;</strong> 🎉<br>
+My joy knew no bounds. I was super excited to get started and was looking forward to great summer ahead!</p>
+<p>The project I will be working on is <a href="https://phabricator.wikimedia.org/T247844">Upgrade WebdriverIO to the latest version for all repositories</a>. My Google Summer of Code Proposal can be found <a href="https://phabricator.wikimedia.org/T248868">here</a>.</p>
+<h2 id="the-journey-so-far">The Journey so far</h2>
+<p>A huge shoutout to my mentor, Željko for giving me the best on-boarding experience ever! In such a short duration, the community has really grown on me. One of the major reasons for this is that the organization offers so many opportunities to get involved in the community.</p>
+<h4 id="test-stratergy-by-riskstorming-with-testsphere">Test Stratergy by RiskStorming with TestSphere</h4>
+<p>This was a part of the EngProd virtual offsite: micro hackathon. In such hackathons, the main motive is to pick small bugs/tasks and work with people you don&rsquo;t normally collaborate with.</p>
+<center><img src="https://vidhi-mody.github.io/img/mediawiki_hackathon.png" alt="Daily Meeting"></center>
+<p>Testsphere is a card game for testers! It was developed by Beren Van Daele and is sold through Ministry of Testing. RiskStorming is a way to expose the biggest and most important risks to a product or project. It’s a way to discuss and discover things that are often quite scary to talk about. No one really wants to dwell on ways their product could catastrophically fail. The cards provide a nice, fun, colourful vehicle to discuss these.</p>
+<p>The projects that we tested were :</p>
+<ol>
+<li>The Death Star (<em>I wish I was a Star Wars fan to actually understand more of what was going on</em> 😅)<br>
+✔ Quality aspects picked: Functionality, Testability, Operations, Resource Management, Disaster Control, Security and Permissions, Performance</li>
+<li>Wikipedia Donation Banners<br>
+✔ Quality aspects picked: Accessibility, Internationalization, User-friendliness, Performance, Security and Permissions, Concurrency</li>
+</ol>
+<p>For more info check <a href="https://phabricator.wikimedia.org/T252704">here</a>.</p>
+<h4 id="the-watercooler-">The WaterCooler 🚰</h4>
+<p>I always wondered how networking was possible if you are working remotely. But there&rsquo;s a solution for every problem right? So what if normal workplace scenarios like, heading out to get a glass of water and running into a co-worker at that point of time is not possible. You can always set up a meet to catch up with each other’s life. The WaterCooler meet aims to do just that. I personally feel it is a great initiative to learn more about each other and take some time off work.</p>
+<p>I would like to share one of the stories I got to hear on the WaterCooler by James.
+Early in his career he worked in an aviation company in UK. The project was related to the network connectivity of the airplane during it&rsquo;s entire journey. The code was written. The code was tested by flying the plane through UK. Everything seemed to be working fine. Now the interesting part, during an international journey the network connection was working just fine uptil it suddenly disconnected completely. When the flight landed, the development team was called to figure out what went wrong. Turns out the flight passed through the equator (lattitude: 0) leading to the divide by zero error! 😱</p>
+<p>For someone like me, who is just getting started as a developer, I loved interacting with the highly experienced members of the community. (<em>Not kidding, few of them have years of experience greater than what my age is!</em>)</p>
+<h4 id="the-tdd-workshop">The TDD Workshop</h4>
+<p>This workshop was by far one of the best experiences I&rsquo;ve had so far. The workshop was about learning basics of Test Driven Development - its rules and Red-Green-Refactor loop. The workshop was very interactive and all the participants worked together while writing code as well as refactoring it. (You can refer to the code for this workshop on <a href="https://github.com/zbyszkop/js-tdd-workshop">GitHub</a>)</p>
+<center><img src="https://vidhi-mody.github.io/img/TDD.jpeg" alt="TDD Workshop"></center>
+<h2 id="carpe-diem">Carpe diem</h2>
+<p>As far as the internship is concerned, I&rsquo;m quite on track. Currently, the second work period has begun. I still remember the day I had my first commits merged. It was and always will be special, for I had made my first ever contribution to the organization. Since the community bonding period, not only have my coding skills improve, I have even learnt the importance of good commit messages, bug reports and small patches. I have also gained a new sense of professionalism and a clearer view of what it meant to be working as a community! You can view my progress so far <a href="https://phabricator.wikimedia.org/T247844">here</a>.</p>
+<h2 id="afterword">Afterword</h2>
+<p>The organization has been very helpful and welcoming since the day I began my application process. Whenever I was stuck with something, I have always received the guidance I need however silly my questions might have been. I see myself continuing to contribute to Wikimedia Foundation as a Volunteer even after the program ends.</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+  				<p>
+  					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://vidhi-mody.github.io/tags/google-summer-of-code">Google Summer of Code</a></span><span class="tag"><a href="https://vidhi-mody.github.io/tags/webdriverio">WebdriverIO</a></span>
+  				</p>
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+                <span><a href="https://vidhi-mody.github.io"></a>Made with &#10084; by <a href="https://github.com/vidhi-mody">Vidhi Mody</a></span>
+            
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="https://vidhi-mody.github.io/bundle.min.2d5469329143160ae2456a69c3c76dc2d0a3b212b46afe291a51bd68650ed6f8697e001dab54f1c272c77ce08092a8c55e5bb4314e0ee334aab4b927ec896638.js" integrity="sha512-LVRpMpFDFgriRWppw8dtwtCjshK0av4pGlG9aGUO1vhpfgAdq1TxwnLHfOCAkqjFXlu0MU4O4zSqtLkn7IlmOA=="></script>
+
+
+
+    </body>
+</html>
