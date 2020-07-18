@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="map[name:Vidhi Mody]">
+<meta name="description" content="“Patience is bitter, but its fruit is sweet.”
+~ Aristotle
+ If you have been following my blogs you&amp;rsquo;d know I was facing serious problems with my machine. For some reason it would auto-delete any file that I&amp;rsquo;m working on! (That&amp;rsquo;s automation for you 😵) Given the current COVID situation, it was incredibly difficult to get a new machine. After being stuck for days, Voila!
+ Project Status Update Meet I had one of the most eventful week so far, with so many things lined up one after the other." />
+<meta name="keywords" content=", Google Summer of Code, WebdriverIO" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://vidhi-mody.github.io/blogs/2020/07/gsocpedia-chapter-five/" />
+
+
+    <title>
+        
+            GSoCpedia: Chapter Five :: Vidhi Mody  — Personal Blog
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://vidhi-mody.github.io/main.min.84ed5579024525d4b50458514d1a43e40dd5272df45c7cd6da85b225af457154.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://vidhi-mody.github.io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://vidhi-mody.github.io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://vidhi-mody.github.io/favicon-16x16.png">
+    <link rel="manifest" href="https://vidhi-mody.github.io/site.webmanifest">
+    <link rel="mask-icon" href="https://vidhi-mody.github.io/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://vidhi-mody.github.io/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+<meta itemprop="name" content="GSoCpedia: Chapter Five">
+<meta itemprop="description" content="Coding Period: Phase Two">
+<meta itemprop="datePublished" content="2020-07-18T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-07-18T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="393">
+<meta itemprop="image" content="https://vidhi-mody.github.io"/>
+
+
+
+<meta itemprop="keywords" content="Google Summer of Code,WebdriverIO," /><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://vidhi-mody.github.io"/>
+
+<meta name="twitter:title" content="GSoCpedia: Chapter Five"/>
+<meta name="twitter:description" content="Coding Period: Phase Two"/>
+
+
+
+    <meta property="article:section" content="Google Summer of Code" />
+
+    <meta property="article:section" content="WebdriverIO" />
+
+
+
+    <meta property="article:published_time" content="2020-07-18 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            
+<header class="header">
+<link rel="apple-touch-icon" sizes="180x180" href="https://vidhi-mody.github.io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://vidhi-mody.github.io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://vidhi-mody.github.io/favicon-16x16.png">
+<link rel="manifest" href="https://vidhi-mody.github.io/site.webmanifest">
+<link rel="mask-icon" href="https://vidhi-mody.github.io/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+    <span class="header__inner">
+        <a href="https://vidhi-mody.github.io/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ cd/home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://vidhi-mody.github.io/about/">About</a></li><li><a href="https://vidhi-mody.github.io/blogs/">Blog</a></li><li><a href="https://vidhi-mody.github.io/contribute/">Contribute</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://vidhi-mody.github.io/blogs/2020/07/gsocpedia-chapter-five/">GSoCpedia: Chapter Five</a></h2>
+
+            
+
+            <div class="post-content">
+                <blockquote>
+<p><em>“Patience is bitter, but its fruit is sweet.”</em><br>
+~ Aristotle</p>
+</blockquote>
+<p>If you have been following my blogs you&rsquo;d know I was facing serious problems with my machine. For some reason it would auto-delete any file that I&rsquo;m working on! (That&rsquo;s automation for you 😵) Given the current COVID situation, it was incredibly difficult to get a new machine. After being stuck for days, Voila!</p>
+<center><img src="https://vidhi-mody.github.io/img/Laptop.jpeg" alt="Macbook Pro 2020"></center>
+<h3 id="project-status-update-meet">Project Status Update Meet</h3>
+<p>I had one of the most eventful week so far, with so many things lined up one after the other. First in line was the GSoC/ Outreachy Project Status Update Meet! It was great meeting fellow folks again. Next update should be the Netflix Party with everyone. (Hopfully 😅)</p>
+<center><img src="https://vidhi-mody.github.io/img/GSoC_Meet.jpeg" alt="GSoC Project Update Meet"></center>
+<h3 id="refactoring-workshop">Refactoring Workshop</h3>
+<p>Attended the Refactoring Workshop a few days back and I highly recommend it! The workshop taught me some patterns and tools which can use to refactor code. It was a lively session with some hands on coding and discussions with major importance given to the process rather than the end result. You can find the code to be refactored <a href="https://github.com/gehel/exo-heating-system/tree/master">here</a>.I don&rsquo;t wanna give any spoilers but I will definitely say it is worth attending.<br>
+The TDD and Refactoring Workshop are a part of the Code Health Group initiative and are open for everyone to attend! If you are interested you can register <a href="https://www.mediawiki.org/wiki/Code_Health_Group/projects/DevEd/Workshops">here</a>.</p>
+<center><img src="https://vidhi-mody.github.io/img/Refactoring_Workshop.jpeg" alt="Refactoring Workshop"></center>
+<h3 id="bug-reporting-best-practices">Bug Reporting Best Practices</h3>
+<p>A good bug report can decrease the time required in fixing a bug and is also essential to allow developers to locate problems and reference the information to fix issues in the development process quickly. However, this is something I&rsquo;m not very good at. So, my mentor John decided to help out!<br>
+Upcoming: <a href="https://phabricator.wikimedia.org/T258075">John&rsquo;s Blog Post</a></p>
+<h4 id="week-8-and-9">Week 8 and 9</h4>
+<p>🎉 Finally have a machine that works! Took some time to set up the new machine but all set to work now 💁</p>
+<p><strong>Highlights:</strong></p>
+<blockquote>
+<p>✅ Partially Accomplished</p>
+<ul>
+<li>Upgraded the <a href="https://phabricator.wikimedia.org/T257340">TemplateWizard repository</a> to v5.</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>🔜 WIP</p>
+<ul>
+<li>Upgrading WebdriverIO in the <a href="https://phabricator.wikimedia.org/T255382">AdvancedSearch repository</a></li>
+<li>Upgrading WebdriverIO in the <a href="https://phabricator.wikimedia.org/T257525">CirrusSearch repository</a></li>
+<li>Upgrading WebdriverIO in the <a href="https://phabricator.wikimedia.org/T256977">MobileFrontend repository</a></li>
+</ul>
+</blockquote>
+<blockquote>
+<p>📃 Documentation tasks</p>
+<ul>
+<li>Created <a href="https://www.mediawiki.org/wiki/MediaWiki-Docker/RevisionSlider">MediaWiki-Docker/RevisionSlider</a> 💯</li>
+<li>Created <a href="https://www.mediawiki.org/wiki/MediaWiki-Docker/Extension/MobileFrontend">MediaWiki-Docker/MobileFrontend</a> 💯</li>
+<li>Created <a href="https://www.mediawiki.org/wiki/MediaWiki-Docker/Extension/TemplateWizard">MediaWiki-Docker/TemplateWizard</a> 💯</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>❌ Waiting/ Blocked</p>
+<ul>
+<li>Upgrading WebdriverIO in the <a href="https://phabricator.wikimedia.org/T250601">RevisionSlider repository</a></li>
+<li>Upgrading WebdriverIO in the <a href="https://phabricator.wikimedia.org/T255045">Wikibase repository</a></li>
+<li>Upgrading WebdriverIO in the <a href="https://phabricator.wikimedia.org/T255051">WikibaseLexeme repository</a></li>
+<li>Create <a href="https://www.mediawiki.org/wiki/MediaWiki-Docker/Wikibase">MediaWiki-Docker/Wikibase</a></li>
+<li>Create <a href="https://www.mediawiki.org/wiki/MediaWiki-Docker/WikibaseLexeme">MediaWiki-Docker/WikibaseLexeme</a></li>
+<li>Created <a href="https://www.mediawiki.org/wiki/MediaWiki-Docker/Extension/CirrusSearch">MediaWiki-Docker/CirrusSearch</a></li>
+</ul>
+</blockquote>
+<p>I guess this is all from me for now. See you in two weeks! 🍻</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+  				<p>
+  					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://vidhi-mody.github.io/tags/google-summer-of-code">Google Summer of Code</a></span><span class="tag"><a href="https://vidhi-mody.github.io/tags/webdriverio">WebdriverIO</a></span>
+  				</p>
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+                <span><a href="https://vidhi-mody.github.io"></a>Made with &#10084; by <a href="https://github.com/vidhi-mody">Vidhi Mody</a></span>
+            
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="https://vidhi-mody.github.io/bundle.min.2d5469329143160ae2456a69c3c76dc2d0a3b212b46afe291a51bd68650ed6f8697e001dab54f1c272c77ce08092a8c55e5bb4314e0ee334aab4b927ec896638.js" integrity="sha512-LVRpMpFDFgriRWppw8dtwtCjshK0av4pGlG9aGUO1vhpfgAdq1TxwnLHfOCAkqjFXlu0MU4O4zSqtLkn7IlmOA=="></script>
+
+
+
+    </body>
+</html>

@@ -5,10 +5,22 @@
     <link>https://vidhi-mody.github.io/categories/google-summer-of-code/</link>
     <description>Recent content in Google Summer of Code on Vidhi Mody</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 04 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vidhi-mody.github.io/categories/google-summer-of-code/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>GSoCpedia: Chapter Five</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/07/gsocpedia-chapter-five/</link>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/07/gsocpedia-chapter-five/</guid>
+      <description>“Patience is bitter, but its fruit is sweet.”
+~ Aristotle
+ If you have been following my blogs you&amp;rsquo;d know I was facing serious problems with my machine. For some reason it would auto-delete any file that I&amp;rsquo;m working on! (That&amp;rsquo;s automation for you 😵) Given the current COVID situation, it was incredibly difficult to get a new machine. After being stuck for days, Voila!
+ Project Status Update Meet I had one of the most eventful week so far, with so many things lined up one after the other.</description>
+    </item>
     
     <item>
       <title>GSoCpedia: The journey so far</title>

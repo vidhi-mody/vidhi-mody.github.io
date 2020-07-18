@@ -11,6 +11,18 @@
     
     
     <item>
+      <title>GSoCpedia: Chapter Five</title>
+      <link>https://vidhi-mody.github.io/blogs/2020/07/gsocpedia-chapter-five/</link>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vidhi-mody.github.io/blogs/2020/07/gsocpedia-chapter-five/</guid>
+      <description>“Patience is bitter, but its fruit is sweet.”
+~ Aristotle
+ If you have been following my blogs you&amp;rsquo;d know I was facing serious problems with my machine. For some reason it would auto-delete any file that I&amp;rsquo;m working on! (That&amp;rsquo;s automation for you 😵) Given the current COVID situation, it was incredibly difficult to get a new machine. After being stuck for days, Voila!
+ Project Status Update Meet I had one of the most eventful week so far, with so many things lined up one after the other.</description>
+    </item>
+    
+    <item>
       <title>GSoCpedia: The journey so far</title>
       <link>https://vidhi-mody.github.io/blogs/2020/07/gsocpedia-the-journey-so-far/</link>
       <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
@@ -120,20 +132,6 @@ Input: 2Output: [0,1,1]Testcase 2</description>
  Day 27 of the May LeetCoding Challenge by Leetcode
 Problem definition: Possible Bipartition Given a set of N people (numbered 1, 2, ..., N), we would like to split everyone into two groups of any size.
 Each person may dislike some other people, and they should not go into the same group.</description>
-    </item>
-    
-    <item>
-      <title>Contiguous Array: Day 26 of the May LeetCoding Challenge</title>
-      <link>https://vidhi-mody.github.io/blogs/2020/05/contiguous-array-day-26-of-the-may-leetcoding-challenge/</link>
-      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vidhi-mody.github.io/blogs/2020/05/contiguous-array-day-26-of-the-may-leetcoding-challenge/</guid>
-      <description>“It is better to have 100 functions operate on one data structure than to have 10 functions operate on 10 data structures.”
-~ Alan Perlis
- Day 26 of the May LeetCoding Challenge by Leetcode
-Problem definition: Contiguous Array Given a binary array, find the maximum length of a contiguous subarray with equal number of 0 and 1.
-Sample Testcase Testcase 1
-Input: [0,1]Output: 2Explanation: [0, 1] is the longest contiguous subarray with equal number of 0 and 1.</description>
     </item>
     
   </channel>
